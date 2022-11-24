@@ -1,0 +1,110 @@
+div.Choose-Your-Tour
+  max-width: 1170px
+  margin: 0 auto
+
+  div.Choose-Your-Tour__Links
+    margin-top: 35px
+    display: flex
+    justify-content: center
+    gap: 30px
+
+    label
+      padding-bottom: 6px
+      position: relative
+
+      font-weight: 700
+      font-size: 23px
+      text-decoration: none
+      color: $black
+
+      border: none
+      background: transparent
+      cursor: pointer
+
+      transition: all .2s
+      border-bottom: rgba(0,0,0,0) 2px solid
+
+    input
+      display: none
+
+      &:hover+label
+        color: $grey
+        border-bottom: $grey 2px solid
+
+      &:checked+label
+        color: $orange
+        border-bottom: $orange 2px solid
+
+  div.Choose-Your-Tour__Cards
+    margin-top: 100px
+    display: inline-flex
+    gap: 30px
+    flex-wrap: wrap
+    color: white
+
+    div.Choose-Your-Tour__Card
+      position: relative
+      overflow: hidden
+      border-radius: 50px
+      height: 531px
+      transition: background-color .3s
+
+      &:hover
+        a
+          background-color: #286562
+        img
+          scale: 1.2
+
+      h2
+        z-index: 1
+        position: absolute
+
+        font-size: 35px
+        font-weight: 500
+
+        margin: 0
+        width: 200px
+        top: 50px
+        left: 50px
+
+      h3
+        z-index: 1
+        position: absolute
+        font-weight: 400
+        margin: 0
+        top: 152px
+        left: 50px
+
+      a
+        position: absolute
+        z-index: 1
+
+        font-size: 23px
+        font-weight: 700
+        color: white
+
+        left: 30px
+        bottom: 43px
+        width: 200px
+
+        margin: 0
+        padding-top: 7px
+        padding-bottom: 7px
+        text-align: center
+        border-radius: 50px
+        transition: .3s
+
+      div
+        position: absolute
+        z-index: 1
+        top: 0
+        width: 100%
+        height: 531px
+        border-radius: 50px
+        background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%)
+
+      img
+        transition: .3s
+        margin: 0
+        border-radius: 50px
+        height: 531px

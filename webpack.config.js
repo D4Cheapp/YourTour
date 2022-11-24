@@ -9,6 +9,7 @@ module.exports={
     runtimeChunk: 'single',
   },
   devServer: {
+    watchFiles: [path.resolve(__dirname,"src")],
     historyApiFallback: true,
     port:3000,
     hot:true,
@@ -21,7 +22,11 @@ module.exports={
     rules: [
       {
         test: /\.(sass|css)$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
+        use: ['style-loader', 'css-loader', 'postcss-loader', {
+          loader: 'sass-loader',
+          options: {
+            additionalData: '@import "src/sass/_variables.sass"',
+          }},]
       },{
       test: /\.(jpg|png|svg|gif|ico)$/,
       use: [{

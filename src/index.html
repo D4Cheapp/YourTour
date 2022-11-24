@@ -7,7 +7,7 @@
 <body>
   <header>
     <div class="Top-Bar">
-      <img class="Top-Bar__logo" src="images/HeaderLogo.png" alt="">
+      <img class="Top-Bar__logo" src="./images/HeaderLogo.png" alt="">
       <div class="Top-Bar__links">
         <a href="">Туры</a>
         <a href="">Создать тур</a>
@@ -23,39 +23,134 @@
       <button>Найти тур</button>
     </div>
 
-    <img class="Header-Background" src="images/HeaderBackground.png" alt="">
+    <img class="Header__Background" src="./images/HeaderBackground.png" alt="">
   </header>
 
   <div class="Choose-Your-Tour">
-    <h1>Выбери свой тур</h1>
-    <div><a href="">Популярное</a><a href="">Авторское</a><a href="">Походы</a><a href="">Сплавы</a><a href="">Велопроргулки</a>
+    <h1 class="Title">Выбери свой тур</h1>
+    <div class="Choose-Your-Tour__Links">
+      <input name="ToreType" type="radio" id="ToreType1">
+      <label for="ToreType1">Популярное</label>
+
+      <input name="ToreType" type="radio" id="ToreType2">
+      <label for="ToreType2">Авторское</label>
+
+      <input name="ToreType" type="radio" id="ToreType3">
+      <label for="ToreType3">Походы</label>
+
+      <input name="ToreType" type="radio" id="ToreType4">
+      <label for="ToreType4">Сплавы</label>
+
+      <input name="ToreType" type="radio" id="ToreType5">
+      <label for="ToreType5">Велопроргулки</label>
     </div>
     <div class="Choose-Your-Tour__Cards">
-      <div class="Choose-Your-Tour__Cards__1">
-        <h2></h2>
-        <h3></h3>
-        <a href="">Подробнее </a></div>
-      <div class="Choose-Your-Tour__Cards__2">
-        <h2></h2>
-        <h3></h3>
-        <a href="">Подробнее </a></div>
-      <div class="Choose-Your-Tour__Cards__3">
-        <h2></h2>
-        <h3></h3>
-        <a href="">Подробнее </a></div>
-      <div class="Choose-Your-Tour__Cards__4">
-        <h2></h2>
-        <h3></h3>
-        <a href="">Подробнее </a></div>
-      <div class="Choose-Your-Tour__Cards__5">
-        <h2></h2>
-        <h3></h3>
-        <a href="">Подробнее </a></div>
-      <div class="Choose-Your-Tour__Cards__6">
-        <h2></h2>
-        <h3></h3>
-        <a href="">Подробнее </a></div>
+
+      <div class="Choose-Your-Tour__Card Bus">
+        <div class="Card-Gradient"></div>
+        <img src="./images/Bus.png" alt="">
+        <h2>Путешествие в горы</h2>
+        <h3>от 80 000руб</h3>
+        <a href="">Подробнее   <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z" fill="white"/></svg></a>
+      </div>
+
+      <div class="Choose-Your-Tour__Card Desert">
+        <div class="Card-Gradient"></div>
+        <img src="./images/Desert.png" alt="">
+        <h2>Путешествие в горы</h2>
+        <h3>от 80 000руб</h3>
+        <a href="">Подробнее   <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z" fill="white"/></svg></a>
+      </div>
+
+    <div class="Choose-Your-Tour__Card Hills">
+      <div class="Card-Gradient"></div>
+      <img src="./images/Hills.png" alt="">
+      <h2>Путешествие в горы</h2>
+      <h3>от 80 000руб</h3>
+      <a href="">Подробнее   <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z" fill="white"/></svg></a>
     </div>
+
+      <div class="Choose-Your-Tour__Card City">
+        <div class="Card-Gradient"></div>
+        <img src="./images/City.png" alt="">
+        <h2>Путешествие в горы</h2>
+        <h3>от 80 000руб</h3>
+        <a href="">Подробнее   <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z" fill="white"/></svg></a>
+      </div>
+
+      <div class="Choose-Your-Tour__Card Beach">
+        <div class="Card-Gradient"></div>
+        <img src="./images/Beach.png" alt="">
+        <h2>Путешествие в горы</h2>
+        <h3>от 80 000руб</h3>
+        <a href="">Подробнее   <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z" fill="white"/></svg></a>
+      </div>
+
+      <div class="Choose-Your-Tour__Card Lake">
+        <div class="Card-Gradient"></div>
+        <img src="./images/Lake.png" alt="">
+        <h2>Путешествие в горы</h2>
+        <h3>от 80 000руб</h3>
+        <a href="">Подробнее   <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z" fill="white"/></svg></a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="Build-Your-Tour">
+    <div class="Build-Your-Tour__Title">
+      <h1 class="Title">Собери свой тур</h1>
+      <p class="Title-Description">Идейные соображения высшего порядка, </br> а также рамки и место обучения кадров</p>
+    </div>
+    <form class="Build-Your-Tour__From">
+      <div class="Build-Your-Tour__Form__Input-Forms">
+        <div class="Build-Your-Tour__Form__Input" id="Input-Form__Name">
+          <h3>Имя</h3>
+          <input type="text" placeholder="Введите ваше имя">
+        </div>
+        <div class="Build-Your-Tour__Form__Input" id="Input-Form__Location">
+          <h3>Направление</h3>
+          <select>
+            <option value="Куда хотите ехать"></option>
+            <option value="Куда хотите ехать"></option>
+            <option value="Куда хотите ехать"></option>
+            <option value="Куда хотите ехать"></option>
+          </select>
+        </div>
+        <div class="Build-Your-Tour__Form__Input" id="Input-Form__Email">
+          <h3>Email</h3>
+          <input type="text" placeholder="example@mail.com">
+        </div>
+        <div class="Build-Your-Tour__Form__Input" id="Input-Form__Phone">
+          <h3>Телефон</h3>
+          <input type="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+        </div>
+        <div class="Build-Your-Tour__Form__Input" id="Input-Form__DateBegin">
+          <h3>Дата от</h3>
+          <input type="text" placeholder="ДД.ММ.ГГГГ">
+        </div>
+        <div class="Build-Your-Tour__Form__Input" id="Input-Form__DateEnd">
+          <h3>Дата до</h3>
+          <input type="text" placeholder="ДД.ММ.ГГГГ">
+        </div>
+        <div class="Build-Your-Tour__Form__Input">
+          <h3>Коментарий</h3>
+          <input type="text">
+        </div>
+      </div>
+      <div class="Build-Your-Tour__Form__Age-Check">
+        <p>Вам есть 18 лет?</p>
+        <div>
+          <div><input type="radio" name="age"><label>Да</label></div>
+          <div><input type="radio" name="age"><label>Нет</label></div>
+        </div>
+      </div>
+      <label class="Build-Your-Tour__Form__Licence"><input type="checkbox">Нажимая кнопку, я принимаю условия <a>Лицензионного договора</a></label>
+      <div class="Build-Your-Tour__Form__Submit-Buttons">
+        <button>Найти тур</button>
+        <button>Сбросить</button>
+      </div>
+    </form>
   </div>
   <script src="./main.js"></script>
 </body>
