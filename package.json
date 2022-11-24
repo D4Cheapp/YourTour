@@ -1,7 +1,7 @@
 {
   "name": "yourtour",
   "version": "1.0.0",
-  "main": "src/js/app.js",
+  "main": "app.js",
   "scripts": {
     "start": "webpack serve",
     "dev": "webpack --mode=development",
@@ -17,16 +17,19 @@
     "css-loader": "^6.7.2",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.7.0",
-    "node-sass": "^8.0.0",
+    "i": "^0.3.7",
+    "npm": "^9.1.2",
     "postcss": "^8.4.19",
     "postcss-loader": "^7.0.1",
-    "prettier": "^2.8.0",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
     "webpack": "5.75.0",
     "webpack-cli": "^5.0.0",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.11.1",
+    "webpack-hot-middleware": "^2.25.3"
+  },
+  "dependencies": {
+    "pnpm": "^7.17.0"
   }
 }

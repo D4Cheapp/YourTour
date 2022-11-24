@@ -4,14 +4,17 @@ const path = require('path');
 
 module.exports={
   mode: 'development',
-  entry: path.resolve(__dirname,'./src/js/app.js'),
+  entry: path.resolve(__dirname,'./src/app.js'),
+  optimization: {
+    runtimeChunk: 'single',
+  },
   devServer: {
     historyApiFallback: true,
     port:3000,
     hot:true,
   },
   output: {
-    filename: `app.js`,
+    filename: `[name].js`,
     path: path.resolve(__dirname,'dist')
   },
   module: {
