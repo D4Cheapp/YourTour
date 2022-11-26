@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports={
   mode: 'development',
-  entry: path.resolve(__dirname,'./src/app.js'),
+  entry: path.resolve(__dirname,'./src/main.js'),
   optimization: {
     runtimeChunk: 'single',
   },
@@ -32,7 +32,7 @@ module.exports={
       use: [{
         loader: 'file-loader',
         options: {
-          name: 'images/[name].[ext]'
+          name: '[path]/[name].[ext]'
         },
       }]}],
   },
