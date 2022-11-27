@@ -8,7 +8,6 @@ specifiers:
   html-webpack-plugin: ^5.5.0
   i: ^0.3.7
   npm: ^9.1.2
-  pnpm: ^7.17.0
   postcss: ^8.4.19
   postcss-loader: ^7.0.1
   sass: ^1.56.1
@@ -18,9 +17,6 @@ specifiers:
   webpack-cli: ^5.0.0
   webpack-dev-server: ^4.11.1
   webpack-hot-middleware: ^2.25.3
-
-dependencies:
-  pnpm: 7.17.0
 
 devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.19
@@ -2054,12 +2050,6 @@ packages:
     dependencies:
       find-up: 4.1.0
     dev: true
-
-  /pnpm/7.17.0:
-    resolution: {integrity: sha512-0oy+VI/6r248MzFrr3jBTQ5qxC1wM+wP3YoGcoohPEMk+5LfQBYHsazdu8QDtuigr2jjaDi0hfg/c8k89jxiEA==}
-    engines: {node: '>=14.6'}
-    hasBin: true
-    dev: false
 
   /postcss-loader/7.0.1_upg3rk2kpasnbk27hkqapxaxfq:
     resolution: {integrity: sha512-VRviFEyYlLjctSM93gAZtcJJ/iSkPZ79zWbN/1fSH+NisBByEiVLqpdVDrPLVSi8DX0oJo12kL/GppTBdKVXiQ==}
