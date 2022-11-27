@@ -124,15 +124,7 @@ form.Build-Your-Tour__From
       align-items: center
       gap: 19px
       a
-        color: #1B1F2B
-        transition: .2s
-        border-bottom: 1px transparent solid
-        &:hover
-          border-bottom: 1px $black solid
-
-        &:active
-          color: $green
-          border-bottom: 1px $green solid
+        +linkAnim
 
     input
       display: none
@@ -155,8 +147,8 @@ form.Build-Your-Tour__From
         height: 12px
         border-bottom: 2px $black solid
         border-right: 2px $black solid
-        top: 3px
-        left: 8px
+        top: 2px
+        left: 7px
         opacity: 0
         transition: .2s
 

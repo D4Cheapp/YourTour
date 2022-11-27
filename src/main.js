@@ -28,5 +28,17 @@ import "./images/tourPhoto/Road.png";
 import "./images/tourPhoto/Rowing.png";
 import "./images/tourPhoto/Tent.png";
 
+import "./images/tourHistory/Tent.png";
+import "./images/tourHistory/Camping.png";
+import "./images/tourHistory/Beach.png";
+
+import "./images/svg/Instagram.svg";
+import "./images/svg/Facebook.svg";
+import "./images/svg/VKontakte.svg";
+
+import "./images/CTA.png";
+
+import "./images/AirBalloon.ico";
+
 import "./sass/style.sass";
 

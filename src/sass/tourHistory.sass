@@ -1,0 +1,67 @@
+.History-Cards
+  display: flex
+  flex-direction: column
+  row-gap: 50px
+
+  .Card
+    position: relative
+    width: 1170px
+    height: 567px
+
+    margin: 0 auto
+    color: white
+
+    h2
+      margin-left: 10px
+      margin-top: 10px
+      width: 554px
+
+    h3
+      margin-left: 10px
+      margin-top: -10px
+      line-height: 28px
+      font-size: 20px
+      width: 554px
+
+    div.Shadow-Gradient
+      height: 567px
+
+    img.History-Background
+      width: 1170px
+      height: 567px
+      transition: .3s
+
+    a.Card__More
+      margin-left: 10px
+      margin-bottom: 10px
+
+    ul
+      margin-left: -8px
+      margin-top: 27px
+
+    .Card__Social-Media
+      position: absolute
+      display: inline-flex
+      z-index: 1
+      gap: 35px
+      bottom: 55px
+      right: 60px
+      a
+        font-size: 20px
+        height: 28px
+        +linkAnim
+        color: white
+        &:hover
+          border-bottom: 1px white solid
+        &:active
+          border-bottom: 1px $green solid
+
+
+    &:hover
+      cursor: pointer
+
+      a.Card__More
+        background-color: #286562
+
+      img.History-Background
+        scale: 1.05

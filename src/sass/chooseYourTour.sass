@@ -43,11 +43,11 @@ div.Choose-Your-Tour
     color: white
 
     div.Card
-      position: relative
-      overflow: hidden
-      border-radius: 50px
-      height: 531px
-      transition: background-color .3s
+      img.Choose-Your-Tour__Card__Background
+        transition: .3s
+        margin: 0
+        border-radius: 50px
+        height: 531px
 
       &:hover
         cursor: pointer
@@ -56,51 +56,55 @@ div.Choose-Your-Tour
         img.Choose-Your-Tour__Card__Background
           scale: 1.2
 
-      h2
-        z-index: 1
-        position: absolute
 
-        font-size: 35px
-        font-weight: 500
+div.Card
+  position: relative
+  overflow: hidden
+  border-radius: 50px
+  height: 531px
+  transition: background-color .3s
 
-        margin: 0
-        width: 200px
-        top: 50px
-        left: 50px
+  a.Card__More
+    position: absolute
+    z-index: 1
 
-      h3
-        z-index: 1
-        position: absolute
-        font-size: 17px
-        font-weight: 400
-        margin: 0
-        top: 153px
-        left: 50px
-        letter-spacing: -0.01em
+    font-size: 23px
+    font-weight: 700
+    color: white
 
-      a
-        position: absolute
-        z-index: 1
+    left: 30px
+    bottom: 43px
+    width: 200px
 
-        font-size: 23px
-        font-weight: 700
-        color: white
+    margin: 0
+    padding-top: 7px
+    padding-bottom: 7px
+    text-align: center
+    border-radius: 50px
+    transition: .3s
+    &:active
+      background: $orange
 
-        left: 30px
-        bottom: 43px
-        width: 200px
+  h2
+    z-index: 1
+    position: absolute
 
-        margin: 0
-        padding-top: 7px
-        padding-bottom: 7px
-        text-align: center
-        border-radius: 50px
-        transition: .3s
-        &:active
-          background: $orange
+    font-size: 35px
+    font-weight: 500
 
-      img.Choose-Your-Tour__Card__Background
-        transition: .3s
-        margin: 0
-        border-radius: 50px
-        height: 531px
+    margin: 0
+    width: 200px
+    top: 50px
+    left: 50px
+
+  h3
+    z-index: 1
+    position: absolute
+    font-size: 17px
+    font-weight: 400
+    margin: 0
+    top: 153px
+    left: 50px
+    letter-spacing: -0.01em
+
+
