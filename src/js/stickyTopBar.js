@@ -10,5 +10,3 @@ window.onscroll= ()=> {
         topBar.classList.remove("fixed")
     }
 }
-
-console.log(window.innerWidth)

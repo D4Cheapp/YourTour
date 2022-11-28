@@ -17,4 +17,11 @@ $beige: #F4F0E9
     color: $green
     border-bottom: 1px $green solid
 
-
+@mixin backgroundShadow($height)
+  position: absolute
+  z-index: 1
+  top: 0
+  width: 100%
+  height: $height
+  border-radius: 50px
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%)

@@ -1,5 +1,5 @@
 //Основной файл стилей sass
-import "./sass/style.sass";
+import "./style.sass";
 
 //Скрипт закрепления шапки
 import "./js/stickyTopBar.js";

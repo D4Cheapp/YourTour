@@ -24,7 +24,7 @@
       width: 554px
 
     div.Shadow-Gradient
-      height: 567px
+      +backgroundShadow(567px)
 
     img.History-Background
       width: 1170px
@@ -56,12 +56,23 @@
         &:active
           border-bottom: 1px $green solid
 
-
     &:hover
       cursor: pointer
 
       a.Card__More
         background-color: #286562
+        &:active
+          background: $orange
 
       img.History-Background
         scale: 1.05
+
+@media (max-width: 1024px)
+  .History-Cards
+    .Card
+      width: 918px
+
+@media (max-width: 900px)
+  .Tour-Reviews-Tour__Title
+    .Title
+      padding-inline: 10px

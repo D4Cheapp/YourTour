@@ -1,5 +1,7 @@
 div.Choose-Your-Tour
-  max-width: 1170px
+  max-width: 76vw
+  left: 0
+  right: 0
   margin: 0 auto
 
   div.Choose-Your-Tour__Links
@@ -38,11 +40,15 @@ div.Choose-Your-Tour
   div.Choose-Your-Tour__Cards-Block
     margin-top: 98px
     display: inline-flex
+    justify-content: center
     gap: 30px
     flex-wrap: wrap
     color: white
 
     div.Card
+      div.Shadow-Gradient
+        +backgroundShadow(531px)
+
       img.Choose-Your-Tour__Card__Background
         transition: .3s
         margin: 0
@@ -62,6 +68,7 @@ div.Choose-Your-Tour
 div.Card
   position: relative
   overflow: hidden
+  width: 370px
   border-radius: 50px
   height: 531px
   transition: background-color .3s
@@ -108,5 +115,3 @@ div.Card
     top: 153px
     left: 50px
     letter-spacing: -0.01em
-
-
