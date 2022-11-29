@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<div class="Build-Your-Tour">
+
+  <div class="Build-Your-Tour__Title">
+    <h1 class="Title">Собери свой тур</h1>
+    <p class="Title-Description">Идейные соображения высшего порядка,
+      а также рамки и место обучения кадров</p>
+  </div>
+
+  <form class="Build-Your-Tour__From">
+
+    <div class="Build-Your-Tour__Input-Forms-Block">
+
+      <div class="Build-Your-Tour__Form-Input__Name">
+        <h3>Имя</h3>
+        <label>
+          <input type="text" placeholder="Введите ваше имя" name="Name">
+        </label>
+      </div>
+
+      <div class="Build-Your-Tour__Form-Input__SelectCity">
+        <h3>Направление</h3>
+        <img src="src/images/svg/DropDownArrow.svg" alt=""/>
+        <label>
+          <select name="Location" required>
+            <option value="" selected>Куда хотите ехать?</option>
+            <option value="City1">Париж</option>
+            <option value="City2">Лондон</option>
+            <option value="City3">Гонконг</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="Build-Your-Tour__Form-Input__Email">
+        <h3>Email</h3>
+        <label>
+          <input type="text" placeholder="example@mail.com" name="Email">
+        </label>
+      </div>
+
+      <div class="Build-Your-Tour__Form-Input__Number">
+        <h3>Телефон</h3>
+        <label>
+          <input type="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" maxlength="14" name="Phone">
+        </label>
+      </div>
+
+      <div class="Build-Your-Tour__Form-Input__DateStart">
+        <h3>Дата от</h3>
+        <label>
+          <input type="text" placeholder="ДД.ММ.ГГГГ" name="DateBegin">
+        </label>
+      </div>
+
+      <div class="Build-Your-Tour__Form-Input__DateEnd">
+        <h3>Дата до</h3>
+        <label>
+          <input type="text" placeholder="ДД.ММ.ГГГГ" name="DateEnd">
+        </label>
+      </div>
+
+      <div class="Build-Your-Tour__Form-Input__Comment">
+        <h3>Комментарий</h3>
+        <label>
+          <textarea name="Comment" rows="8" cols="135" ></textarea>
+        </label>
+      </div>
+    </div>
+
+    <div class="Build-Your-Tour__Form__Age-Check">
+      <h3>Вам есть 18 лет?</h3>
+      <div class="Build-Your-Tour__Form__Age-Input">
+        <label>
+          <input type="radio" name="age">
+          <div class="Custom-Radio"></div>
+          <h3>Да</h3>
+        </label>
+
+        <label>
+          <input type="radio" name="age">
+          <div class="Custom-Radio"></div>
+          <h3>Нет</h3>
+        </label>
+      </div>
+    </div>
+
+    <div class="Build-Your-Tour__Form__Licence">
+      <label>
+        <input type="checkbox">
+        <div class="Custom-CheckBox"></div>
+        <p>Нажимая кнопку, я принимаю условия <a>Лицензионного договора</a></p>
+      </label>
+    </div>
+
+    <div class="Build-Your-Tour__Form__Submit-Buttons">
+      <button type="submit">Найти тур</button>
+      <button type="reset">Сбросить</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

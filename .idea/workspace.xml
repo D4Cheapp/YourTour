@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="tour history">
-      <change afterPath="$PROJECT_DIR$/src/sass/adaptive/ctaAndFooterAdaptive.sass" afterDir="false" />
+    <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="finished">
+      <change afterPath="$PROJECT_DIR$/src/html/buildYourTour.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/chooseYourTour.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/footerAndCta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/tourHistory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/tourPhotos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/tourReviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/tourPhoto/Tent.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Tent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/headerAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/headerAdaptive.sass" afterDir="false" />
@@ -12,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,9 +52,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.17.1",
+    "javascript.nodejs.core.library.typings.version": "16.18.3",
     "list.type.of.created.stylesheet": "Sass",
     "nodejs_package_manager_path": "pnpm",
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
@@ -68,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669721547242</updated>
       <workItem from="1669721549232" duration="2452000" />
-      <workItem from="1669728582147" duration="7043000" />
+      <workItem from="1669728582147" duration="16344000" />
     </task>
     <task id="LOCAL-00001" summary="reviews adaptive">
       <created>1669728717152</created>
@@ -84,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669733954294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished">
+      <created>1669735877630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669735877630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reviews adaptive" />
     <MESSAGE value="tour history" />
-    <option name="LAST_COMMIT_MESSAGE" value="tour history" />
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
 </project>
