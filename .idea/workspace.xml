@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="reviews adaptive">
-      <change afterPath="$PROJECT_DIR$/src/sass/adaptive/tourHistoryAdaptive.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" afterDir="false" />
+    <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="tour history">
+      <change afterPath="$PROJECT_DIR$/src/sass/adaptive/ctaAndFooterAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/tourHistory.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourHistory.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/tourPhoto.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourPhoto.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/tourReviews.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourReviews.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/tourPhoto/Tent.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Tent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/headerAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/headerAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourHistoryAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourHistoryAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669721547242</updated>
       <workItem from="1669721549232" duration="2452000" />
-      <workItem from="1669728582147" duration="5185000" />
+      <workItem from="1669728582147" duration="7043000" />
     </task>
     <task id="LOCAL-00001" summary="reviews adaptive">
       <created>1669728717152</created>
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669728717152</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tour history">
+      <created>1669733954294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669733954294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reviews adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="reviews adaptive" />
+    <MESSAGE value="tour history" />
+    <option name="LAST_COMMIT_MESSAGE" value="tour history" />
   </component>
 </project>
