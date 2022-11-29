@@ -4,12 +4,8 @@
   row-gap: 50px
 
   .Card
-    position: relative
-    width: 1170px
-    height: 567px
-
+    +Card(1170px,567px)
     margin: 0 auto
-    color: white
 
     h2
       margin-left: 10px
@@ -22,9 +18,6 @@
       line-height: 28px
       font-size: 20px
       width: 554px
-
-    div.Shadow-Gradient
-      +backgroundShadow(567px)
 
     img.History-Background
       width: 1170px
