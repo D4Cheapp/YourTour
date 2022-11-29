@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/tourReviews.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourReviews.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IDgPZfZvmV5zCwarjx8GOedFLc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,6 +31,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "pnpm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -49,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669721547242</updated>
       <workItem from="1669721549232" duration="2452000" />
+      <workItem from="1669728582147" duration="77000" />
     </task>
     <servers />
   </component>
