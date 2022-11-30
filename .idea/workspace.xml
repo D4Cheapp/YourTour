@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="Оптимизация изображений и разбитие index.html на блоки файлов" />
+    <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="Оптимизация изображений и разбитие index.html на блоки файлов">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/AirBalloon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/AirBalloon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/CTA.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/CTA.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/chooseYourTour/Beach.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/chooseYourTour/Beach.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/chooseYourTour/Bus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/chooseYourTour/Bus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/chooseYourTour/City.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/chooseYourTour/City.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/chooseYourTour/Desert.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/chooseYourTour/Desert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/chooseYourTour/Hills.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/chooseYourTour/Hills.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/chooseYourTour/Lake.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/chooseYourTour/Lake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/header/HeaderBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/header/HeaderBackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/header/HeaderLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/header/HeaderLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/svg/CardsArrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/CardsArrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/svg/DropDownArrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/DropDownArrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/svg/Facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/Facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/svg/Instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/Instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/svg/VKontakte.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/svg/VKontakte.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourHistory/Beach.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourHistory/Beach.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourHistory/Camping.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourHistory/Camping.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourHistory/Tent.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourHistory/Tent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Bridge.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Bridge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/BusyStreet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/BusyStreet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/City.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/City.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Cliff.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Cliff.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Desert.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Desert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Hills.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Hills.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Lake.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Lake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Map.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/MysteriousCity.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/MysteriousCity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Plane.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Plane.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Road.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Road.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Rowing.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Rowing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/tourPhoto/Tent.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/tourPhoto/Tent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/users/Maria.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/users/Maria.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src/images/users/Pavel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/users/Pavel.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,5 +53,16 @@
   </component>
   <component name="TaskManager">
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
