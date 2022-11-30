@@ -6,18 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/__variablesAndGlobal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/__variablesAndGlobal.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/ctaAndFooterAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/ctaAndFooterAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/ctaAndFooterAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/footerAndCtaAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourHistoryAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourHistoryAdaptive.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/chooseYourTour.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/chooseYourTour.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/tourHistory.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourHistory.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/cta.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/footerAndCta.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +61,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Frontend\YourTour" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />

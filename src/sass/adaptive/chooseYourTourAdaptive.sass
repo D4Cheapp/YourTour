@@ -50,8 +50,19 @@
         +Card(318px,318px)
 
         img
-          transform: translate(-12%,0)
+          scale: 1
+          transform: translate(-12%,5%)
 
-      div.Lake,div.Beach
+        &:hover
+          img.Choose-Your-Tour__Card__Background
+            transform: translate(-15%,10%)
+            scale: 1.2
+
+      div.Lake:hover,div.Beach:hover,div.City:hover
+          img.Choose-Your-Tour__Card__Background
+            transform: translate(-15%,15%)
+            scale: 1.2
+
+      div.Lake,div.Beach,div.City
         img
-         transform: translate(-12%,10%)
+          transform: translate(-12%,10%)
