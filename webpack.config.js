@@ -7,14 +7,8 @@ module.exports={
   //Режим проекта и точка входа
   mode: 'development',
   entry: path.resolve(__dirname,'./src/main.js'),
-  //Оптимизация svg imagemin
   optimization: {
     runtimeChunk: 'single',
-    minimizer: [new ImageMinimizerPlugin({
-      minimizer: {
-        implementation: ImageMinimizerPlugin.imageminMinify,
-        options:{plugins: [["svgo",{plugins:[{removeViewBox:false}]}]
-    ]}}})]
   },
   //Настройки сервера
   devServer: {
