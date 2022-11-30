@@ -1,26 +1,30 @@
 @media (max-width: 1900px)
-  .Tour-Reviews__Reviews-Cards
-    gap: 18px
+  .Tour-Reviews
+    .Tour-Reviews__Title
+      h1
+        margin-top: 145px
 
-    .Reviews_Cards__Card
-      width: 370px
-      height: 769px
+    .Tour-Reviews__Reviews-Cards
+      gap: 18px
 
-      p
-        margin-top: 10px
+      .Reviews_Cards__Card
         width: 370px
+        height: 769px
 
-      .Reviews_Cards__Card__User
-        width: 295px
-        h2
-          width: 295px
         p
+          margin-top: 0
+          width: 370px
+
+        .Reviews_Cards__Card__User
+          margin-bottom: 7px
           width: 295px
+          h2
+            width: 295px
+          p
+            width: 295px
 
 @media (max-width: 900px)
-  .Tour-Reviews__Reviews-Cards
-    flex-direction: column
-    align-items: center
+  .Tour-Reviews
 
     .Tour-Reviews__Title
       h1.Title
@@ -29,33 +33,41 @@
       p.Title-Description
         margin-bottom: 45px
 
-    .First-User
-      height: 378px
+    .Tour-Reviews__Reviews-Cards
+      flex-direction: column
+      align-items: center
+      padding-block: 10px
 
-    .Second-User
-      height: 562px
 
-    .Reviews_Cards__Card
-      border-radius: 20px
-      padding: 20px
-      padding-block: 15px
-      width: 280px
+      .First-User
+        height: 378px
 
-      p
-        font-size: 16px
-        width: 98%
-        line-height: 22.72px
+      .Second-User
+        height: 562px
 
-      .Reviews_Cards__Card__User
-        width: 278px
-        align-items: flex-end
-        bottom: 15px
+      .Reviews_Cards__Card
+        border-radius: 20px
+        padding: 20px
+        padding-block: 15px
+        width: 280px
 
-        div
-          width: 100px
+        p
+          font-size: 16px
+          width: 98%
+          line-height: 22.72px
 
-          h2
-            font-size: 23px
+        .Reviews_Cards__Card__User
+          width: 278px
+          align-items: flex-end
+          bottom: 22px
 
-          p
-            font-size: 16px
+          div
+            width: 100px
+
+            h2
+              font-size: 23px
+              font-weight: 700
+              margin-bottom: 5px
+
+            p
+              font-size: 16px
