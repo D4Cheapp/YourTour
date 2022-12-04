@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="finished">
+      <change afterPath="$PROJECT_DIR$/src/js/validation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/__variablesAndGlobal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/__variablesAndGlobal.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/ctaAndFooterAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/footerAndCtaAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/headerAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/headerAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourHistoryAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourHistoryAdaptive.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/cta.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/footerAndCta.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/buildYourTour.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/buildYourTour.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/chooseYourTour.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/chooseYourTour.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/footerAndCta.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/footerAndCta.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/topBar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/topBar.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/tourHistory.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourHistory.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/tourPhoto.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourPhoto.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/tourReviews.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourReviews.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +36,7 @@
         <option value="Sass File" />
         <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,24 +54,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.17.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.3&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.17.1",
+    "javascript.nodejs.core.library.typings.version": "16.18.4",
+    "last_opened_file_path": "D:/Projects/Frontend/Todo-list",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\Frontend\YourTour" />
@@ -87,6 +99,12 @@
       <workItem from="1669728582147" duration="25513000" />
       <workItem from="1669809369992" duration="386000" />
       <workItem from="1669809864226" duration="1673000" />
+      <workItem from="1669835726024" duration="53000" />
+      <workItem from="1669835814231" duration="1093000" />
+      <workItem from="1669849939991" duration="451000" />
+      <workItem from="1669895663866" duration="2828000" />
+      <workItem from="1670075422294" duration="66000" />
+      <workItem from="1670075572521" duration="41146000" />
     </task>
     <task id="LOCAL-00001" summary="reviews adaptive">
       <created>1669728717152</created>

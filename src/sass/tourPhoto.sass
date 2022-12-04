@@ -1,36 +1,37 @@
-.Tour-Photos
+.Tour-Photos__Collection
   width: 100%
-  .Tour-Photos__Collection
-    margin-inline: 30px
-    display: inline-flex
-    flex-direction: column
-    row-gap: 30px
+  display: inline-flex
+  flex-direction: column
+  align-items: center
+  row-gap: 30px
 
-    .Collection__First-Line,.Collection__Third-Line
-      display: inline-flex
-      gap: 30px
+  .Collection__First-Line,.Collection__Third-Line
+    display: inline-flex
+    gap: 30px
+
+    img
+      object-fit: cover
+      border-radius: 50px
+      width: 442.5px
+      height: 300px
+
+  .Collection__Second-Line
+    display: inline-flex
+    gap: 30px
+
+    div
+      border-radius: 50px
+      overflow: hidden
+      width: 347.32px
+      height: 301px
 
       img
-        border-radius: 50px
-        width: 442.5px
-        height: 300px
+        object-fit: cover
+        scale: .5
+        transform: translate(-535px,-300px)
 
-    .Collection__Second-Line
-      display: inline-flex
-      gap: 30px
-
-      div
-        border-radius: 50px
-        overflow: hidden
-        width: 347.32px
-        height: 301px
-
-        img
-          scale: .5
-          transform: translate(-535px,-300px)
-
-      .Tent
-        img
-          scale: 1
-          transform: translate(0,0)
+    .Tent
+      img
+        scale: 1
+        transform: translate(0,0)
 

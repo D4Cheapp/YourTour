@@ -19,15 +19,17 @@ div.Top-Bar
     display: flex
     gap: 50px
 
-    a
-      text-decoration: none
-      border: none
-      color: white
-      border-bottom: rgba(255,255,255,0) 1px solid
-      transition: .2s
+  a
+    text-decoration: none
+    border: none
+    color: white
+    margin-top: 3px
+    padding-bottom: 3px
+    border-bottom: rgba(255,255,255,0) 1px solid
+    transition: .2s
 
-      &:hover
-        border-bottom: white 1px solid
+    &:hover
+      border-bottom: white 1px solid
 
 div.fixed
   position: fixed
@@ -41,7 +43,7 @@ div.fixed
   img.Top-Bar__logo
     filter: invert(100%)
 
-  div.Top-Bar__links>a
+  a
     color: $black
     &:hover
       border-bottom: 1px $black solid
@@ -54,12 +56,12 @@ div.fixed
       gap: 30px
 
 
-@media (max-width: 900px)
+@media (max-width: 1024px)
   div.Top-Bar
     width: calc(100% - 40px)
     padding-inline: 20px
     gap: 0
-    justify-content: space-between
+    justify-content: space-around
 
     img.Top-Bar__logo
       height: 22px
@@ -69,3 +71,7 @@ div.fixed
 
     div.Top-Bar__links
       display: none
+
+@media (max-width: 400px)
+  div.Top-Bar
+    justify-content: space-between

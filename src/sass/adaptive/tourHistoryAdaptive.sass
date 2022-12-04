@@ -1,11 +1,29 @@
 @media (max-width: 1900px)
   .History-Cards
     .Card
-      width: 918px
+      +Card(70vw,40vw)
+      @media (max-width: 1200px)
+        +Card(918px,567px)
+
+      img.History-Background
+        object-fit: cover
+        width: 100%
+        height: 100%
 
       .Card__Content
+        h2
+          font-size: 2.2vw
+          @media (max-width: 1200px)
+            font-size: 35px
+
+
+        h3
+          font-size: 1.2vw
+          @media (max-width: 1200px)
+            font-size: 20px
+
         .Card__More
-          bottom: 50px
+          bottom: 2vw
 
 @media (max-width: 900px)
   .History-Cards
@@ -17,18 +35,24 @@
         padding-inline: 10px
 
     .Card
-      +Card(318px,455px)
+      +Card(80vw,455px)
+      @media (max-width: 500px)
+       +Card(318px,455px)
 
       .Card__Content
         padding: 30px
 
         h2
-          width: 150px
+          width: auto
+          @media (max-width: 500px)
+            width: 150px
           font-size: 23px
 
         h3
           margin-top: 0
-          width: 263px
+          width: auto
+          @media (max-width: 500px)
+            width: 263px
           font-size: 16px
           line-height: 23px
 
@@ -48,11 +72,12 @@
             height: 20px
 
       .Card__Social-Media
-        display: none
+        bottom: 30px
 
+        a
+          font-size: 16px
+        @media (max-width: 650px)
+          display: none
 
-      img
-        transform: translate(-40%,-12%)
-        scale: .9
 
 

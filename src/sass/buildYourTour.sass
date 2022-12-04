@@ -71,22 +71,30 @@ form.Build-Your-Tour__From
         height: 112px
         width: 990px
 
-  .Build-Your-Tour__Form__Age-Check
+  .Build-Your-Tour__Form__Other-Inputs
+    display: flex
+    flex-direction: column
+
+  .Form__Other-Inputs__Age-Check
     h3
       margin-top: 30px
-      margin-bottom: 6px
+      margin-bottom: 10px
+      font-weight: 400
 
-    div.Build-Your-Tour__Form__Age-Input
+    div.Form__Other-Inputs__Age-Input
       display: flex
       gap: 30px
+
       label
         height: 28px
         display: inline-flex
+
         h3
           margin: 0
 
         input
-          display: none
+          position: absolute
+          opacity: 0
 
         input:checked+.Custom-Radio::before
           opacity: 1
@@ -113,20 +121,21 @@ form.Build-Your-Tour__From
             opacity: 0
             transition: .2s
 
-  .Build-Your-Tour__Form__Licence
-    margin-top: 18px
+  .Form__Other-Inputs__Licence
+    margin-top: 20px
     font-size: 17px
     letter-spacing: -0.01em
-    label
-      color: $grey
-      display: inline-flex
-      align-items: center
-      gap: 19px
-      a
-        +linkAnim
+    color: $grey
+    display: inline-flex
+    align-items: center
+    gap: 19px
+    a
+      padding-bottom: 2px
+      +linkAnim
 
     input
-      display: none
+      position: absolute
+      opacity: 0
 
     input:checked+.Custom-CheckBox::before
       opacity: 1
@@ -151,7 +160,7 @@ form.Build-Your-Tour__From
         opacity: 0
         transition: .2s
 
-  .Build-Your-Tour__Form__Submit-Buttons
+  .Form__Other-Inputs__Submit-Buttons
     margin-top: 20px
     display: inline-flex
     gap: 30px
@@ -164,7 +173,7 @@ form.Build-Your-Tour__From
       font-size: 20px
       transition: .2s
 
-    button[type="submit"]
+    button
       background: $green
       color: white
 

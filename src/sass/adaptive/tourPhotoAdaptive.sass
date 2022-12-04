@@ -14,7 +14,7 @@
         gap: 20px
 
         img
-          width: 314.5px
+          width: 30vw
           height: 300px
 
         .Desert
@@ -27,10 +27,10 @@
         gap: 20px
 
         div
-          width: 231px
+          width: 22vw
           height: 301px
           img
-            transform: translate(-655px,-300px)
+            object-fit: cover
 
         .Tent
           img
@@ -40,7 +40,7 @@
         .Bridge
           display: none
 
-@media (max-width: 900px)
+@media (max-width: 1000px)
   .Tour-Photos
 
     .Tour-Photos__Title
@@ -48,30 +48,42 @@
         margin-top: 50px
 
     .Tour-Photos__Collection
-      width: 100%
       padding: 0
-      margin-inline: auto
-      row-gap: 18px
+      row-gap: 50px
+      @media (max-width: 650px)
+        row-gap: 18px
 
       .Collection__First-Line,.Collection__Third-Line
         img
           border-radius: 20px
-          width: 150px
-          height: 120px
+          width: 200px
+          height: 150px
+          @media (max-width: 650px)
+            width: 150px
+            height: 120px
 
         .Hills
-          display: none
+          @media (max-width: 650px)
+            display: none
 
         .BusyStreet
-          display: none
+          @media (max-width: 650px)
+            display: none
 
       .Collection__Second-Line
-        gap: 10px
+        gap: 65px
+        @media (max-width: 650px)
+          gap: 10px
 
         div
           border-radius: 20px
           width: 100px
           height: 110px
+          scale: 1.5
+          @media (max-width: 650px)
+            scale: 1
+            width: 100px
+            height: 110px
 
           img
             transform: translate(-220%,-200%)
@@ -83,11 +95,17 @@
             transform: translate(-350px,-250px)
 
         .Map
-          display: none
+          @media (max-width: 650px)
+           display: none
 
       .Collection__Third-Line
-        gap: 10px
+        gap: 20px
+        @media (max-width: 650px)
+          gap: 10px
 
         img
-          width: 154px
-          height: 108px
+          width: 200px
+          height: 150px
+          @media (max-width: 650px)
+            width: 154px
+            height: 108px

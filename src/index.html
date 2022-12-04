@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <header>
+    <header style="background-image: url('src/images/header/HeaderBackground.png'); background-size: cover">
         <div class="Top-Bar">
             <img class="Top-Bar__logo" src="src/images/header/HeaderLogo.png" alt="">
             <div class="Top-Bar__links">
@@ -19,7 +19,7 @@
                 <a>Отзывы</a>
                 <a>Истории</a>
             </div>
-            <p class="Top-Bar__Telephone">+7 999 999 99 99</p>
+            <a>+7 999 999 99 99</a>
         </div>
 
         <div class="Header__Main-Content">
@@ -27,14 +27,12 @@
             <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
             <button>Найти тур</button>
         </div>
-
-        <img class="Header__Background" src="src/images/header/HeaderBackground.png" alt="">
     </header>
 
     <div class="Choose-Your-Tour">
         <h1 class="Title">Выбери свой тур</h1>
         <div class="Choose-Your-Tour__Links">
-            <input name="ToreType" type="radio" id="ToreType1">
+            <input name="ToreType" type="radio" id="ToreType1" checked="checked">
             <label for="ToreType1">Популярное</label>
 
             <input name="ToreType" type="radio" id="ToreType2">
@@ -129,7 +127,8 @@
                 <div class="Build-Your-Tour__Form-Input__Name">
                     <h3>Имя</h3>
                     <label>
-                        <input type="text" placeholder="Введите ваше имя" name="Name">
+                        <input type="text" placeholder="Введите ваше имя" name="Name"
+                        required pattern="[А-я]+">
                     </label>
                 </div>
 
@@ -149,28 +148,32 @@
                 <div class="Build-Your-Tour__Form-Input__Email">
                     <h3>Email</h3>
                     <label>
-                        <input type="text" placeholder="example@mail.com" name="Email">
+                        <input type="text" placeholder="example@mail.com" name="Email"
+                               required pattern="\w+@+\w+\.+\w+">
                     </label>
                 </div>
 
                 <div class="Build-Your-Tour__Form-Input__Number">
                     <h3>Телефон</h3>
                     <label>
-                        <input type="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" maxlength="14" name="Phone">
+                        <input type="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" maxlength="16" name="Phone"
+                               required pattern="[7|+7|8]{1,2}[(|-]?[0-9]{3}[)|-]?[0-9]{3}[-]?[0-9]{2}[-]?[0-9]{2}">
                     </label>
                 </div>
 
                 <div class="Build-Your-Tour__Form-Input__DateStart">
                     <h3>Дата от</h3>
                     <label>
-                        <input type="text" placeholder="ДД.ММ.ГГГГ" name="DateBegin">
+                        <input type="text" placeholder="ДД.ММ.ГГГГ" name="DateBegin"
+                               required pattern="[0-3][0-9][\.|,][0-1][0-9][\.|,][1-2][0-9]{3}">
                     </label>
                 </div>
 
                 <div class="Build-Your-Tour__Form-Input__DateEnd">
                     <h3>Дата до</h3>
                     <label>
-                        <input type="text" placeholder="ДД.ММ.ГГГГ" name="DateEnd">
+                        <input type="text" placeholder="ДД.ММ.ГГГГ" name="DateEnd"
+                               required pattern="[0-3][0-9][\.|,][0-1][0-9][\.|,][1-2][0-9]{3}">
                     </label>
                 </div>
 
@@ -182,34 +185,34 @@
                 </div>
             </div>
 
-            <div class="Build-Your-Tour__Form__Age-Check">
-                <h3>Вам есть 18 лет?</h3>
-                <div class="Build-Your-Tour__Form__Age-Input">
-                    <label>
-                        <input type="radio" name="age">
-                        <div class="Custom-Radio"></div>
-                        <h3>Да</h3>
-                    </label>
+            <div class="Build-Your-Tour__Form__Other-Inputs">
+                <div class="Form__Other-Inputs__Age-Check">
+                    <h3>Вам есть 18 лет?</h3>
+                    <div class="Form__Other-Inputs__Age-Input">
+                        <label>
+                            <input type="radio" name="age" required>
+                            <div class="Custom-Radio"></div>
+                            <h3>Да</h3>
+                        </label>
 
-                    <label>
-                        <input type="radio" name="age">
-                        <div class="Custom-Radio"></div>
-                        <h3>Нет</h3>
-                    </label>
+                        <label>
+                            <input type="radio" name="age">
+                            <div class="Custom-Radio"></div>
+                            <h3>Нет</h3>
+                        </label>
+                    </div>
                 </div>
-            </div>
 
-            <div class="Build-Your-Tour__Form__Licence">
-                <label>
-                    <input type="checkbox">
+                <label class="Form__Other-Inputs__Licence">
+                    <input type="checkbox" name="License" required>
                     <div class="Custom-CheckBox"></div>
                     <p>Нажимая кнопку, я принимаю условия <a>Лицензионного договора</a></p>
                 </label>
-            </div>
 
-            <div class="Build-Your-Tour__Form__Submit-Buttons">
-                <button type="submit">Найти тур</button>
-                <button type="reset">Сбросить</button>
+                <div class="Form__Other-Inputs__Submit-Buttons">
+                    <button name="submitJs">Найти тур</button>
+                    <button type="reset">Сбросить</button>
+                </div>
             </div>
         </form>
     </div>

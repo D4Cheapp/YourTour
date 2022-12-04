@@ -3,21 +3,28 @@
     .Tour-Reviews__Title
       h1
         margin-top: 145px
+        @media (max-width: 1100px)
+          margin-top: 138px
+
 
     .Tour-Reviews__Reviews-Cards
       gap: 18px
 
       .Reviews_Cards__Card
-        width: 370px
-        height: 769px
+        height: auto
+        width: 32vw
+        @media (max-width: 1250px)
+          width: 370px
+          height: 769px
 
         p
           margin-top: 0
-          width: 370px
+          width: auto
+          @media (max-width: 1250px)
+            width: 370px
 
         .Reviews_Cards__Card__User
           margin-bottom: 7px
-          width: 295px
           h2
             width: 295px
           p
@@ -34,13 +41,15 @@
         margin-bottom: 45px
 
     .Tour-Reviews__Reviews-Cards
-      flex-direction: column
+      flex-wrap: wrap
       align-items: center
       padding-block: 10px
 
 
       .First-User
-        height: 378px
+        height: 562px
+        @media (max-width: 650px)
+          height: 378px
 
       .Second-User
         height: 562px
@@ -62,6 +71,9 @@
           bottom: 22px
 
           div
+            display: flex
+            flex-direction: column
+            row-gap: 8px
             width: 100px
 
             h2
