@@ -9,52 +9,52 @@
     <link rel="icon" href="src/images/AirBalloon.ico">
 </head>
 <body>
-
-    <header style="background-image: url('src/images/header/HeaderBackground.png'); background-size: cover">
-        <div class="Top-Bar">
-            <img class="Top-Bar__logo" src="src/images/header/HeaderLogo.png" alt="">
-            <div class="Top-Bar__links">
-                <a>Туры</a>
-                <a>Создать тур</a>
-                <a>Отзывы</a>
-                <a>Истории</a>
-            </div>
-            <a>+7 999 999 99 99</a>
+    <header class="Top-Bar">
+        <img class="Top-Bar__logo" src="src/images/header/HeaderLogo.png" alt="">
+        <div class="Top-Bar__links">
+            <a target="_blank" href="/#">Туры</a>
+            <a target="_blank" href="/#">Создать тур</a>
+            <a target="_blank" href="/#">Отзывы</a>
+            <a target="_blank" href="/#">Истории</a>
         </div>
-
-        <div class="Header__Main-Content">
-            <h1>Идеальные путешествия существуют</h1>
-            <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
-            <button>Найти тур</button>
-        </div>
+        <a href="tel:+79999999999">+7 999 999 99 99</a>
     </header>
 
-    <div class="Choose-Your-Tour">
-        <h1 class="Title">Выбери свой тур</h1>
-        <div class="Choose-Your-Tour__Links">
-            <input name="ToreType" type="radio" id="ToreType1" checked="checked">
-            <label for="ToreType1">Популярное</label>
+    <main class="Header__Main-Content" style="background-image: url('src/images/header/HeaderBackground.png'); background-size: cover">
+        <h1 class="Header__Main-Content__Title">Идеальные путешествия существуют</h1>
+        <p class="Header__Main-Content__Description">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+        <button class="Header__Main-Content__Button">Найти тур</button>
+    </main>
 
-            <input name="ToreType" type="radio" id="ToreType2">
-            <label for="ToreType2">Авторское</label>
+    <section class="Choose-Your-Tour">
+        <article class="Choose-Your-Tour__Title">
+            <h1 class="Title">Выбери свой тур</h1>
+            <div class="Choose-Your-Tour__Links">
+                <input name="TourType" type="radio" id="popular" checked="checked">
+                <label for="popular">Популярное</label>
 
-            <input name="ToreType" type="radio" id="ToreType3">
-            <label for="ToreType3">Походы</label>
+                <input name="TourType" type="radio" id="authorial">
+                <label for="authorial">Авторское</label>
 
-            <input name="ToreType" type="radio" id="ToreType4">
-            <label for="ToreType4">Сплавы</label>
+                <input name="TourType" type="radio" id="trips">
+                <label for="trips">Походы</label>
 
-            <input name="ToreType" type="radio" id="ToreType5">
-            <label for="ToreType5">Велопроргулки</label>
-        </div>
+                <input name="TourType" type="radio" id="alloys">
+                <label for="alloys">Сплавы</label>
+
+                <input name="TourType" type="radio" id="cycling_trips">
+                <label for="cycling_trips">Велопроргулки</label>
+            </div>
+        </article>
+
         <div class="Choose-Your-Tour__Cards-Block">
 
             <div class="Card Bus">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
-                        <h2>Путешествие в горы</h2>
-                        <h3>от 80 000 руб</h3>
-                        <a class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
+                    <h2 class="Card__Content__Tour-Name">Путешествие в горы</h2>
+                    <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
+                    <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
                 <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Bus.png" alt="">
             </div>
@@ -62,9 +62,9 @@
             <div class="Card Desert">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
-                    <h2>Путешествие в горы</h2>
-                    <h3>от 80 000 руб</h3>
-                    <a class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
+                    <h2 class="Card__Content__Tour-Name">Путешествие в горы</h2>
+                    <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
+                    <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
                 <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Desert.png" alt="">
             </div>
@@ -72,9 +72,9 @@
             <div class="Card Hills">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
-                    <h2>Путешествие в горы</h2>
-                    <h3>от 80 000 руб</h3>
-                    <a class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
+                    <h2 class="Card__Content__Tour-Name">Путешествие в горы</h2>
+                    <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
+                    <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
                 <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Hills.png" alt="">
             </div>
@@ -82,9 +82,9 @@
             <div class="Card City">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
-                    <h2>Путешествие в горы</h2>
-                    <h3>от 80 000 руб</h3>
-                    <a class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
+                    <h2 class="Card__Content__Tour-Name">Путешествие в горы</h2>
+                    <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
+                    <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
                 <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/City.png" alt="">
             </div>
@@ -92,9 +92,9 @@
             <div class="Card Beach">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
-                    <h2>Путешествие в горы</h2>
-                    <h3>от 80 000 руб</h3>
-                    <a class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
+                    <h2 class="Card__Content__Tour-Name">Путешествие в горы</h2>
+                    <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
+                    <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
                 <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Beach.png" alt="">
             </div>
@@ -103,127 +103,127 @@
             <div class="Card Lake">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
-                    <h2>Путешествие в горы</h2>
-                    <h3>от 80 000 руб</h3>
-                    <a class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
+                    <h2 class="Card__Content__Tour-Name">Путешествие в горы</h2>
+                    <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
+                    <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
                 <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Lake.png" alt="">
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="Build-Your-Tour">
+    <section class="Build-Your-Tour">
 
-        <div class="Build-Your-Tour__Title">
+        <article class="Build-Your-Tour__Title">
             <h1 class="Title">Собери свой тур</h1>
             <p class="Title-Description">Идейные соображения высшего порядка,
                 а также рамки и место обучения кадров</p>
-        </div>
+        </article>
 
-        <form class="Build-Your-Tour__From">
+        <form class="Build-Your-Tour__Form">
 
             <div class="Build-Your-Tour__Input-Forms-Block">
 
                 <div class="Build-Your-Tour__Form-Input__Name">
-                    <h3>Имя</h3>
+                    <h3 class="Input-Title">Имя</h3>
                     <label>
-                        <input type="text" placeholder="Введите ваше имя" name="Name"
+                        <input class="Input" type="text" placeholder="Введите ваше имя" name="Name"
                         required pattern="[А-я]+">
                     </label>
                 </div>
 
                 <div class="Build-Your-Tour__Form-Input__SelectCity">
-                    <h3>Направление</h3>
-                    <img src="src/images/svg/DropDownArrow.svg" alt=""/>
+                    <h3 class="Input-Title">Направление</h3>
+                    <img class="Form-Input__SelectCity__Select-Arrow" src="src/images/svg/DropDownArrow.svg" alt=""/>
                     <label>
-                        <select name="Location" required>
+                        <select class="Form-Input__SelectCity__Select" name="Location" required>
                             <option value="" selected>Куда хотите ехать?</option>
-                            <option value="City1">Париж</option>
-                            <option value="City2">Лондон</option>
-                            <option value="City3">Гонконг</option>
+                            <option value="Paris">Париж</option>
+                            <option value="London">Лондон</option>
+                            <option value="HongKong">Гонконг</option>
                         </select>
                     </label>
                 </div>
 
                 <div class="Build-Your-Tour__Form-Input__Email">
-                    <h3>Email</h3>
+                    <h3 class="Input-Title">Email</h3>
                     <label>
-                        <input type="text" placeholder="example@mail.com" name="Email"
+                        <input class="Input" type="text" placeholder="example@mail.com" name="Email"
                                required pattern="\w+@+\w+\.+\w+">
                     </label>
                 </div>
 
                 <div class="Build-Your-Tour__Form-Input__Number">
-                    <h3>Телефон</h3>
+                    <h3 class="Input-Title">Телефон</h3>
                     <label>
-                        <input type="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" maxlength="16" name="Phone"
+                        <input class="Input" type="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" maxlength="16" name="Phone"
                                required pattern="[7|+7|8]{1,2}[(|-]?[0-9]{3}[)|-]?[0-9]{3}[-]?[0-9]{2}[-]?[0-9]{2}">
                     </label>
                 </div>
 
                 <div class="Build-Your-Tour__Form-Input__DateStart">
-                    <h3>Дата от</h3>
+                    <h3 class="Input-Title">Дата от</h3>
                     <label>
-                        <input type="text" placeholder="ДД.ММ.ГГГГ" name="DateBegin"
+                        <input class="Input" type="text" placeholder="ДД.ММ.ГГГГ" name="DateBegin"
                                required pattern="[0-3][0-9][\.|,][0-1][0-9][\.|,][1-2][0-9]{3}">
                     </label>
                 </div>
 
                 <div class="Build-Your-Tour__Form-Input__DateEnd">
-                    <h3>Дата до</h3>
+                    <h3 class="Input-Title">Дата до</h3>
                     <label>
-                        <input type="text" placeholder="ДД.ММ.ГГГГ" name="DateEnd"
+                        <input class="Input" type="text" placeholder="ДД.ММ.ГГГГ" name="DateEnd"
                                required pattern="[0-3][0-9][\.|,][0-1][0-9][\.|,][1-2][0-9]{3}">
                     </label>
                 </div>
 
                 <div class="Build-Your-Tour__Form-Input__Comment">
-                    <h3>Комментарий</h3>
+                    <h3 class="Input-Title">Комментарий</h3>
                     <label>
-                        <textarea name="Comment" rows="8" cols="135" ></textarea>
+                        <textarea class="Form-Input__Comment__Input" name="Comment" rows="8" cols="135" ></textarea>
                     </label>
                 </div>
             </div>
 
             <div class="Build-Your-Tour__Form__Other-Inputs">
                 <div class="Form__Other-Inputs__Age-Check">
-                    <h3>Вам есть 18 лет?</h3>
+                    <h3 class="Other-Inputs__Age-Check__Title">Вам есть 18 лет?</h3>
                     <div class="Form__Other-Inputs__Age-Input">
-                        <label>
-                            <input type="radio" name="age" required>
+                        <label class="Other-Inputs__Age-Check__Label">
+                            <input class="Age-Check__Label__Radio-Button" type="radio" name="age" id="age_adult" required>
                             <div class="Custom-Radio"></div>
-                            <h3>Да</h3>
+                            <h3 class="Age-Check__Label__Button-Text">Да</h3>
                         </label>
 
                         <label>
-                            <input type="radio" name="age">
+                            <input class="Age-Check__Label__Radio-Button"  type="radio" name="age" id="age_underage">
                             <div class="Custom-Radio"></div>
-                            <h3>Нет</h3>
+                            <h3 class="Age-Check__Label__Button-Text">Нет</h3>
                         </label>
                     </div>
                 </div>
 
                 <label class="Form__Other-Inputs__Licence">
-                    <input type="checkbox" name="License" required>
+                    <input class="Other-Inputs__Licence__Input" type="checkbox" name="License" required>
                     <div class="Custom-CheckBox"></div>
-                    <p>Нажимая кнопку, я принимаю условия <a>Лицензионного договора</a></p>
+                    <p class="Other-Inputs__Licence__Contract">Нажимая кнопку, я принимаю условия <a target="_blank" href="/#">Лицензионного договора</a></p>
                 </label>
 
-                <div class="Form__Other-Inputs__Submit-Buttons">
-                    <button name="submitJs">Найти тур</button>
-                    <button type="reset">Сбросить</button>
+                <div class="Form__Other-Inputs__Buttons">
+                    <button class="Other-Inputs__Buttons__Submit" name="submitJs">Найти тур</button>
+                    <button class="Other-Inputs__Buttons__Reset" type="reset">Сбросить</button>
                 </div>
             </div>
         </form>
-    </div>
+    </section>
 
-    <div class="Tour-Reviews">
+    <section class="Tour-Reviews">
 
-        <div class="Tour-Reviews__Title">
+        <article class="Tour-Reviews__Title">
             <h1 class="Title">Отзывы наших </br> путешественников</h1>
             <p class="Title-Description">Идейные соображения высшего порядка,
                 а также рамки и место обучения кадров</p>
-        </div>
+        </article>
 
         <div class="Tour-Reviews__Reviews-Cards">
             <div class="Reviews_Cards__Card  First-User">
@@ -239,11 +239,11 @@
                     значение модели развития.</p>
 
                 <div class="Reviews_Cards__Card__User">
-                    <div>
-                        <h2>Мария</h2>
-                        <p>Тур: Вдали от дома</p>
+                    <div class="Card__User__Information">
+                        <h2 class="User__Information__Name">Мария</h2>
+                        <p class="User__Information__Tour-Name">Тур: Вдали от дома</p>
                     </div>
-                    <img src="src/images/users/Maria.png" alt=""></div>
+                    <img class="Card__User__Picture" src="src/images/users/Maria.png" alt=""></div>
             </div>
 
             <div class="Reviews_Cards__Card Second-User">
@@ -265,22 +265,22 @@
                 </p>
 
                 <div class="Reviews_Cards__Card__User">
-                    <div>
-                        <h2>Павел</h2>
-                        <p>Тур: Путешествие в горы</p>
+                    <div class="Card__User__Information">
+                        <h2 class="User__Information__Name">Павел</h2>
+                        <p class="User__Information__Tour-Name">Тур: Вдали от дома</p>
                     </div>
-                    <img src="src/images/users/Pavel.png" alt=""></div>
+                    <img class="Card__User__Picture" src="src/images/users/Pavel.png" alt=""></div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="Tour-Photos">
+    <section class="Tour-Photos">
 
-        <div class="Tour-Photos__Title">
+        <article class="Tour-Photos__Title">
             <h1 class="Title">Фотографии путешествий</h1>
             <p class="Title-Description">Идейные соображения высшего порядка,
                 а также рамки и место обучения кадров</p>
-        </div>
+        </article>
 
         <div class="Tour-Photos__Collection">
             <div class="Collection__First-Line">
@@ -305,101 +305,104 @@
                 <img src="src/images/tourPhoto/Rowing.png" alt="" class="Rowing">
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="Tour-History">
+    <section class="Tour-History">
 
-        <div class="Tour-Reviews__Title">
+        <article class="Tour-History__Title">
             <h1 class="Title">Истории путешествий</h1>
             <p class="Title-Description">Идейные соображения высшего порядка,
                 а также рамки и место обучения кадров</p>
-        </div>
+        </article>
 
         <div class="History-Cards">
             <div class="Card">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
-                    <h2>Автостопом в Стамбул</h2>
-                    <h3>Идейные соображения высшего порядка,
+                    <h2 class="Card__Content__Tour-Name">Автостопом в Стамбул</h2>
+                    <h3 class="Card__Content__Description">Идейные соображения высшего порядка,
                     а также рамки и место обучения кадров
                     обеспечивает широкому кругу (специалистов)
                     участие в формировании новых предложений:
-                    <ul>
+                    <ul class="Card__Content__List">
                         <li>вкусная еда</li>
                         <li>дешевый транспорт</li>
                         <li>красивый город</li>
                     </ul></h3>
-                    <a class="Card__More"> <p>Подробнее</p><img src="src/images/svg/CardsArrow.svg" alt=""></a>
+                    <a target="_blank" href="/#" class="Card__More"> <p class="Card__More__Text">Подробнее</p>
+                        <img class="Card__More__Arrow" src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img src="src/images/tourHistory/Tent.png" alt="" class="History-Background">
+                <img class="Card__Background" src="src/images/tourHistory/Tent.png" alt="">
                 <div class="Card__Social-Media">
-                    <a>instagram</a>
-                    <a>facebook</a>
-                    <a>YouTube</a>
+                    <a target="_blank" href="https://www.instagram.com/">instagram</a>
+                    <a target="_blank" href="https://www.facebook.com/">facebook</a>
+                    <a target="_blank" href="https://www.youtube.com/">YouTube</a>
                 </div>
             </div>
 
             <div class="Card">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
-                    <h2>Автостопом в Стамбул</h2>
-                    <h3>Идейные соображения высшего порядка,
+                    <h2 class="Card__Content__Tour-Name">Автостопом в Стамбул</h2>
+                    <h3 class="Card__Content__Description">Идейные соображения высшего порядка,
                     а также рамки и место обучения кадров
                     обеспечивает широкому кругу (специалистов)
                     участие в формировании новых предложений:</h3>
-                    <a class="Card__More"> <p>Подробнее</p><img src="src/images/svg/CardsArrow.svg" alt=""></a>
+                    <a target="_blank" href="/#" class="Card__More"> <p class="Card__More__Text">Подробнее</p>
+                        <img class="Card__More__Arrow" src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img src="src/images/tourHistory/Camping.png" alt="" class="History-Background">
+                <img class="Card__Background" src="src/images/tourHistory/Camping.png" alt="">
                 <div class="Card__Social-Media">
-                    <a>instagram</a>
-                    <a>ВКонтакте</a>
+                    <a target="_blank" href="https://www.instagram.com/">instagram</a>
+                    <a target="_blank" href="https://vk.com">ВКонтакте</a>
                 </div>
             </div>
 
             <div class="Card">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
-                    <h2>Автостопом в Стамбул</h2>
-                    <h3>Идейные соображения высшего порядка,
+                    <h2 class="Card__Content__Tour-Name">Автостопом в Стамбул</h2>
+                    <h3 class="Card__Content__Description">Идейные соображения высшего порядка,
                     а также рамки и место обучения кадров
                     обеспечивает широкому кругу (специалистов)
                     участие в формировании новых предложений:</h3>
-                    <a class="Card__More"> <p>Подробнее</p><img src="src/images/svg/CardsArrow.svg" alt=""></a>
+                    <a target="_blank" href="/#" class="Card__More"> <p class="Card__More__Text">Подробнее</p>
+                        <img class="Card__More__Arrow" src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img src="src/images/tourHistory/Beach.png" alt="" class="History-Background">
+                <img class="Card__Background" src="src/images/tourHistory/Beach.png" alt="">
                 <div class="Card__Social-Media">
-                    <a>instagram</a>
-                    <a>facebook</a>
-                    <a>ВКонтакте</a>
+                    <a target="_blank" href="https://www.instagram.com/">instagram</a>
+                    <a target="_blank" href="https://www.facebook.com/">facebook</a>
+                    <a target="_blank" href="https://vk.com">ВКонтакте</a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="CTA">
-        <img src="src/images/CTA.png" alt="">
-        <div class="CTA_Title">
-            <h2>Пора в путешествие вместе с нами!</h2>
-            <h3>Напиши на почту и узнай подробности </br>
-                на <a>yourtour@gmail.com</a></h3>
-        </div>
-    </div>
+    <section class="CTA">
+        <img class="CTA__Image" src="src/images/CTA.png" alt="">
+        <article class="CTA__Text">
+            <h2 class="CTA__Text__Title">Пора в путешествие вместе с нами!</h2>
+            <h3 class="CTA__Text__Email-Text">Напиши на почту и узнай подробности </br>
+                на <a class="CTA__Text__Email" href="mailto:yourtour@gmail.com">yourtour@gmail.com</a></h3>
+        </article>
+    </section>
 
     <footer>
         <div class="Footer__Content">
-            <p>Наши социальные сети</p>
+            <p class="Footer__Content__Social-Media-Title">Наши социальные сети</p>
             <div class="Footer__Social-Media">
-                <div>
-                    <img src="src/images/svg/Instagram.svg" alt="">
-                    <a>instagram</a>
+                <div class="Footer__Social-Media__Block">
+                    <img class="Footer__Social-Media__SVG" src="src/images/svg/Instagram.svg" alt="">
+                    <a class="Footer__Social-Media__Link" target="_blank" href="https://www.instagram.com/">instagram</a>
                 </div>
-                <div>
-                    <img src="src/images/svg/Facebook.svg" alt="">
-                    <a>facebook</a>
+                <div class="Footer__Social-Media__Block">
+                    <img class="Footer__Social-Media__SVG" src="src/images/svg/Facebook.svg" alt="">
+                    <a class="Footer__Social-Media__Link" target="_blank" href="https://www.facebook.com/">facebook</a>
                 </div>
-                <div>
-                    <img src="src/images/svg/VKontakte.svg" alt="">
-                    <a>vkontakte</a>
+                <div class="Footer__Social-Media__Block">
+                    <img class="Footer__Social-Media__SVG" src="src/images/svg/VKontakte.svg" alt="">
+                    <a class="Footer__Social-Media__Link" target="_blank" href="https://vk.com">vkontakte</a>
                 </div>
             </div>
         </div>
