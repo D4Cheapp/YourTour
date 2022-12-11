@@ -1,5 +1,6 @@
 //Основной файл стилей sass
 import './style.sass';
+import "normalize.css";
 
 //Скрипт закрепления шапки
 import './js/stickyTopBar.js';

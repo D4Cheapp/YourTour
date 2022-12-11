@@ -1,5 +1,6 @@
-div.Top-Bar
+header.Top-Bar
   position: absolute
+  z-index: 10
   top: 0
   width: 100%
   height: 88px
@@ -7,71 +8,39 @@ div.Top-Bar
   display: inline-flex
   justify-content: center
   align-items: center
-  gap: 9.5vw
+  gap: 181px
 
+img.Top-Bar__Logo
+  height: 30px
+
+div.Top-Bar__Links
+  display: inline-flex
+  gap: 50px
+
+a.Top-Bar__Telephone, a.Top-Bar__Links__Link
+  text-decoration: none
+  color: $white
   font-size: 20px
   font-weight: 400
 
-  img.Top-Bar__logo
-    height: 30px
+  border-bottom: 1px transparent solid
+  padding-block: 2px
+  transition: .2s
 
-  div.Top-Bar__links
-    display: flex
-    gap: 50px
+  &:hover
+    border-bottom: 1px $white solid
 
-  a
-    text-decoration: none
-    border: none
-    color: white
-    margin-top: 3px
-    padding-bottom: 3px
-    border-bottom: rgba(255,255,255,0) 1px solid
-    transition: .2s
 
-    &:hover
-      border-bottom: white 1px solid
-
-div.fixed
+header.fixed
   position: fixed
-  z-index: 10
-  top: 0
-
-  background: #F3EFE899
+  background: rgba(243, 239, 232, 0.6)
   backdrop-filter: blur(27px)
-  color: $black
 
-  img.Top-Bar__logo
-    filter: invert(100%)
+  img.Top-Bar__Logo
+    filter: invert(1)
 
-  a
+  a.Top-Bar__Telephone, a.Top-Bar__Links__Link
     color: $black
+
     &:hover
       border-bottom: 1px $black solid
-
-@media (max-width: 1024px)
-  div.Top-Bar
-    gap: 82px
-
-    div.Top-Bar__links
-      gap: 30px
-
-
-@media (max-width: 1024px)
-  div.Top-Bar
-    width: calc(100% - 40px)
-    padding-inline: 20px
-    gap: 0
-    justify-content: space-around
-
-    img.Top-Bar__logo
-      height: 22px
-
-    p
-      font-size: 16px
-
-    div.Top-Bar__links
-      display: none
-
-@media (max-width: 400px)
-  div.Top-Bar
-    justify-content: space-between

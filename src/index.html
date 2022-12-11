@@ -10,40 +10,40 @@
 </head>
 <body>
     <header class="Top-Bar">
-        <img class="Top-Bar__logo" src="src/images/header/HeaderLogo.png" alt="">
-        <div class="Top-Bar__links">
-            <a target="_blank" href="/#">Туры</a>
-            <a target="_blank" href="/#">Создать тур</a>
-            <a target="_blank" href="/#">Отзывы</a>
-            <a target="_blank" href="/#">Истории</a>
+        <img class="Top-Bar__Logo" src="src/images/header/HeaderLogo.png" alt="">
+        <div class="Top-Bar__Links">
+            <a class="Top-Bar__Links__Link" target="_blank" href="/#">Туры</a>
+            <a class="Top-Bar__Links__Link" target="_blank" href="/#">Создать тур</a>
+            <a class="Top-Bar__Links__Link" target="_blank" href="/#">Отзывы</a>
+            <a class="Top-Bar__Links__Link" target="_blank" href="/#">Истории</a>
         </div>
-        <a href="tel:+79999999999">+7 999 999 99 99</a>
+        <a class="Top-Bar__Telephone" href="tel:+79999999999">+7 999 999 99 99</a>
     </header>
 
-    <main class="Header__Main-Content" style="background-image: url('src/images/header/HeaderBackground.png'); background-size: cover">
-        <h1 class="Header__Main-Content__Title">Идеальные путешествия существуют</h1>
-        <p class="Header__Main-Content__Description">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
-        <button class="Header__Main-Content__Button">Найти тур</button>
+    <main class="Main-Content" style="background-image: url('src/images/header/HeaderBackground.png'); background-size: cover">
+        <h1 class="Main-Content__Title">Идеальные путешествия существуют</h1>
+        <p class="Main-Content__Description">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+        <button class="Main-Content__Button">Найти тур</button>
     </main>
 
     <section class="Choose-Your-Tour">
         <article class="Choose-Your-Tour__Title">
-            <h1 class="Title">Выбери свой тур</h1>
+            <h1 class="Title__Head">Выбери свой тур</h1>
             <div class="Choose-Your-Tour__Links">
-                <input name="TourType" type="radio" id="popular" checked="checked">
-                <label for="popular">Популярное</label>
+                <input class="Choose-Your-Tour__Links__Input" name="TourType" type="radio" id="popular" checked="checked">
+                <label class="Choose-Your-Tour__Links__Label" for="popular">Популярное</label>
 
-                <input name="TourType" type="radio" id="authorial">
-                <label for="authorial">Авторское</label>
+                <input class="Choose-Your-Tour__Links__Input" name="TourType" type="radio" id="authorial">
+                <label class="Choose-Your-Tour__Links__Label" for="authorial">Авторские</label>
 
-                <input name="TourType" type="radio" id="trips">
-                <label for="trips">Походы</label>
+                <input class="Choose-Your-Tour__Links__Input" name="TourType" type="radio" id="trips">
+                <label class="Choose-Your-Tour__Links__Label" for="trips">Походы</label>
 
-                <input name="TourType" type="radio" id="alloys">
-                <label for="alloys">Сплавы</label>
+                <input class="Choose-Your-Tour__Links__Input" name="TourType" type="radio" id="alloys">
+                <label class="Choose-Your-Tour__Links__Label" for="alloys">Сплавы</label>
 
-                <input name="TourType" type="radio" id="cycling_trips">
-                <label for="cycling_trips">Велопроргулки</label>
+                <input class="Choose-Your-Tour__Links__Input" name="TourType" type="radio" id="cycling_trips">
+                <label class="Choose-Your-Tour__Links__Label" for="cycling_trips">Велопрогулки</label>
             </div>
         </article>
 
@@ -56,7 +56,7 @@
                     <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
                     <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Bus.png" alt="">
+                <img class="Card__Background" src="src/images/chooseYourTour/Bus.png" alt="">
             </div>
 
             <div class="Card Desert">
@@ -66,7 +66,7 @@
                     <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
                     <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Desert.png" alt="">
+                <img class="Card__Background" src="src/images/chooseYourTour/Desert.png" alt="">
             </div>
 
             <div class="Card Hills">
@@ -76,7 +76,7 @@
                     <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
                     <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Hills.png" alt="">
+                <img class="Card__Background" src="src/images/chooseYourTour/Hills.png" alt="">
             </div>
 
             <div class="Card City">
@@ -86,7 +86,7 @@
                     <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
                     <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/City.png" alt="">
+                <img class="Card__Background" src="src/images/chooseYourTour/City.png" alt="">
             </div>
 
             <div class="Card Beach">
@@ -96,7 +96,7 @@
                     <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
                     <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Beach.png" alt="">
+                <img class="Card__Background" src="src/images/chooseYourTour/Beach.png" alt="">
             </div>
 
 
@@ -107,15 +107,15 @@
                     <h3 class="Card__Content__Tour-Price">от 80 000 руб</h3>
                     <a target="_blank" href="/#" class="Card__More">Подробнее<img src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img class="Choose-Your-Tour__Card__Background" src="src/images/chooseYourTour/Lake.png" alt="">
+                <img class="Card__Background" src="src/images/chooseYourTour/Lake.png" alt="">
             </div>
         </div>
     </section>
 
     <section class="Build-Your-Tour">
 
-        <article class="Build-Your-Tour__Title">
-            <h1 class="Title">Собери свой тур</h1>
+        <article class="Build-Your-Tour Title">
+            <h1 class="Title__Head">Собери свой тур</h1>
             <p class="Title-Description">Идейные соображения высшего порядка,
                 а также рамки и место обучения кадров</p>
         </article>
@@ -124,7 +124,7 @@
 
             <div class="Build-Your-Tour__Input-Forms-Block">
 
-                <div class="Build-Your-Tour__Form-Input__Name">
+                <div class="Build-Your-Tour__Form-Input Input-Name">
                     <h3 class="Input-Title">Имя</h3>
                     <label>
                         <input class="Input" type="text" placeholder="Введите ваше имя" name="Name"
@@ -132,7 +132,7 @@
                     </label>
                 </div>
 
-                <div class="Build-Your-Tour__Form-Input__SelectCity">
+                <div class="Build-Your-Tour__Form-Input Input-SelectCity">
                     <h3 class="Input-Title">Направление</h3>
                     <img class="Form-Input__SelectCity__Select-Arrow" src="src/images/svg/DropDownArrow.svg" alt=""/>
                     <label>
@@ -145,7 +145,7 @@
                     </label>
                 </div>
 
-                <div class="Build-Your-Tour__Form-Input__Email">
+                <div class="Build-Your-Tour__Form-Input Input-Email">
                     <h3 class="Input-Title">Email</h3>
                     <label>
                         <input class="Input" type="text" placeholder="example@mail.com" name="Email"
@@ -153,7 +153,7 @@
                     </label>
                 </div>
 
-                <div class="Build-Your-Tour__Form-Input__Number">
+                <div class="Build-Your-Tour__Form-Input Input-Number">
                     <h3 class="Input-Title">Телефон</h3>
                     <label>
                         <input class="Input" type="tel" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" maxlength="16" name="Phone"
@@ -161,7 +161,7 @@
                     </label>
                 </div>
 
-                <div class="Build-Your-Tour__Form-Input__DateStart">
+                <div class="Build-Your-Tour__Form-Input Input-DateStart">
                     <h3 class="Input-Title">Дата от</h3>
                     <label>
                         <input class="Input" type="text" placeholder="ДД.ММ.ГГГГ" name="DateBegin"
@@ -169,7 +169,7 @@
                     </label>
                 </div>
 
-                <div class="Build-Your-Tour__Form-Input__DateEnd">
+                <div class="Build-Your-Tour__Form-Input Input-DateEnd">
                     <h3 class="Input-Title">Дата до</h3>
                     <label>
                         <input class="Input" type="text" placeholder="ДД.ММ.ГГГГ" name="DateEnd"
@@ -177,7 +177,7 @@
                     </label>
                 </div>
 
-                <div class="Build-Your-Tour__Form-Input__Comment">
+                <div class="Build-Your-Tour__Form-Input Input-Comment">
                     <h3 class="Input-Title">Комментарий</h3>
                     <label>
                         <textarea class="Form-Input__Comment__Input" name="Comment" rows="8" cols="135" ></textarea>
@@ -195,7 +195,7 @@
                             <h3 class="Age-Check__Label__Button-Text">Да</h3>
                         </label>
 
-                        <label>
+                        <label class="Other-Inputs__Age-Check__Label">
                             <input class="Age-Check__Label__Radio-Button"  type="radio" name="age" id="age_underage">
                             <div class="Custom-Radio"></div>
                             <h3 class="Age-Check__Label__Button-Text">Нет</h3>
@@ -206,7 +206,8 @@
                 <label class="Form__Other-Inputs__Licence">
                     <input class="Other-Inputs__Licence__Input" type="checkbox" name="License" required>
                     <div class="Custom-CheckBox"></div>
-                    <p class="Other-Inputs__Licence__Contract">Нажимая кнопку, я принимаю условия <a target="_blank" href="/#">Лицензионного договора</a></p>
+                    <p class="Other-Inputs__Licence__Contract">Нажимая кнопку, я принимаю условия
+                        <a class="Licence__Contract__Link"target="_blank" href="/#">Лицензионного договора</a></p>
                 </label>
 
                 <div class="Form__Other-Inputs__Buttons">
@@ -219,8 +220,8 @@
 
     <section class="Tour-Reviews">
 
-        <article class="Tour-Reviews__Title">
-            <h1 class="Title">Отзывы наших </br> путешественников</h1>
+        <article class="Tour-Reviews Title">
+            <h1 class="Title__Head">Отзывы наших </br> путешественников</h1>
             <p class="Title-Description">Идейные соображения высшего порядка,
                 а также рамки и место обучения кадров</p>
         </article>
@@ -243,8 +244,9 @@
                         <h2 class="User__Information__Name">Мария</h2>
                         <p class="User__Information__Tour-Name">Тур: Вдали от дома</p>
                     </div>
-                    <img class="Card__User__Picture" src="src/images/users/Maria.png" alt=""></div>
-            </div>
+                    <img class="Card__User__Picture" src="src/images/users/Maria.png" alt="">
+                </div>
+             </div>
 
             <div class="Reviews_Cards__Card Second-User">
                 <p class="Reviews_Cards__Text">
@@ -267,7 +269,7 @@
                 <div class="Reviews_Cards__Card__User">
                     <div class="Card__User__Information">
                         <h2 class="User__Information__Name">Павел</h2>
-                        <p class="User__Information__Tour-Name">Тур: Вдали от дома</p>
+                        <p class="User__Information__Tour-Name">Тур: Путешествие в горы </p>
                     </div>
                     <img class="Card__User__Picture" src="src/images/users/Pavel.png" alt=""></div>
             </div>
@@ -276,47 +278,47 @@
 
     <section class="Tour-Photos">
 
-        <article class="Tour-Photos__Title">
-            <h1 class="Title">Фотографии путешествий</h1>
+        <article class="Tour-Photos Title">
+            <h1 class="Title__Head">Фотографии путешествий</h1>
             <p class="Title-Description">Идейные соображения высшего порядка,
                 а также рамки и место обучения кадров</p>
         </article>
 
         <div class="Tour-Photos__Collection">
             <div class="Collection__First-Line">
-                <img src="src/images/tourPhoto/Plane.png" alt="" class="Plane">
-                <img src="src/images/tourPhoto/Desert.png" alt="" class="Desert">
-                <img src="src/images/tourPhoto/Hills.png" alt="" class="Hills">
-                <img src="src/images/tourPhoto/Road.png" alt="" class="Road">
+                <img src="src/images/tourPhoto/Plane.png" alt="" class="Collection__First-And-Third-Line__Image Plane">
+                <img src="src/images/tourPhoto/Desert.png" alt="" class="Collection__First-And-Third-Line__Image Desert">
+                <img src="src/images/tourPhoto/Hills.png" alt="" class="Collection__First-And-Third-Line__Image Hills">
+                <img src="src/images/tourPhoto/Road.png" alt="" class="Collection__First-And-Third-Line__Image Road">
             </div>
 
             <div class="Collection__Second-Line">
-                <div class="Cliff"><img src="src/images/tourPhoto/Cliff.png" alt=""></div>
-                <div class="Map"><img src="src/images/tourPhoto/Map.png" alt=""></div>
-                <div class="Bridge"><img src="src/images/tourPhoto/Bridge.png" alt=""></div>
-                <div class="Tent"><img src="src/images/tourPhoto/Tent.png" alt=""></div>
-                <div class="City"><img src="src/images/tourPhoto/City.png" alt=""></div>
+                <img src="src/images/tourPhoto/Cliff.png" alt="" class="Collection__Second-Line__Image Cliff">
+                <img src="src/images/tourPhoto/Map.png" alt="" class="Collection__Second-Line__Image Map">
+                <img src="src/images/tourPhoto/Bridge.png" alt="" class="Collection__Second-Line__Image Bridge">
+                <img src="src/images/tourPhoto/Tent.png" alt="" class="Collection__Second-Line__Image Tent">
+                <img src="src/images/tourPhoto/City.png" alt="" class="Collection__Second-Line__Image City">
             </div>
 
             <div class="Collection__Third-Line">
-                <img src="src/images/tourPhoto/MysteriousCity.png" alt="" class="MysteriousCity">
-                <img src="src/images/tourPhoto/Lake.png" alt="" class="Lake">
-                <img src="src/images/tourPhoto/BusyStreet.png" alt="" class="BusyStreet">
-                <img src="src/images/tourPhoto/Rowing.png" alt="" class="Rowing">
+                <img src="src/images/tourPhoto/MysteriousCity.png" alt="" class="Collection__First-And-Third-Line__Image MysteriousCity">
+                <img src="src/images/tourPhoto/Lake.png" alt="" class="Collection__First-And-Third-Line__Image Lake">
+                <img src="src/images/tourPhoto/BusyStreet.png" alt="" class="Collection__First-And-Third-Line__Image BusyStreet">
+                <img src="src/images/tourPhoto/Rowing.png" alt="" class="Collection__First-And-Third-Line__Image Rowing">
             </div>
         </div>
     </section>
 
     <section class="Tour-History">
 
-        <article class="Tour-History__Title">
-            <h1 class="Title">Истории путешествий</h1>
+        <article class="Tour-History Title">
+            <h1 class="Title__Head">Истории путешествий</h1>
             <p class="Title-Description">Идейные соображения высшего порядка,
                 а также рамки и место обучения кадров</p>
         </article>
 
         <div class="History-Cards">
-            <div class="Card">
+            <div class="History-Cards__Card Card">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
                     <h2 class="Card__Content__Tour-Name">Автостопом в Стамбул</h2>
@@ -334,13 +336,13 @@
                 </div>
                 <img class="Card__Background" src="src/images/tourHistory/Tent.png" alt="">
                 <div class="Card__Social-Media">
-                    <a target="_blank" href="https://www.instagram.com/">instagram</a>
-                    <a target="_blank" href="https://www.facebook.com/">facebook</a>
-                    <a target="_blank" href="https://www.youtube.com/">YouTube</a>
+                    <a class="Card__Social-Media__Link" target="_blank" href="https://www.instagram.com/">instagram</a>
+                    <a class="Card__Social-Media__Link" target="_blank" href="https://www.facebook.com/">facebook</a>
+                    <a class="Card__Social-Media__Link" target="_blank" href="https://www.youtube.com/">YouTube</a>
                 </div>
             </div>
 
-            <div class="Card">
+            <div class="History-Cards__Card Card">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
                     <h2 class="Card__Content__Tour-Name">Автостопом в Стамбул</h2>
@@ -353,12 +355,12 @@
                 </div>
                 <img class="Card__Background" src="src/images/tourHistory/Camping.png" alt="">
                 <div class="Card__Social-Media">
-                    <a target="_blank" href="https://www.instagram.com/">instagram</a>
-                    <a target="_blank" href="https://vk.com">ВКонтакте</a>
+                    <a class="Card__Social-Media__Link" target="_blank" href="https://www.instagram.com/">instagram</a>
+                    <a class="Card__Social-Media__Link" target="_blank" href="https://vk.com">ВКонтакте</a>
                 </div>
             </div>
 
-            <div class="Card">
+            <div class="History-Cards__Card Card">
                 <div class="Shadow-Gradient"></div>
                 <div class="Card__Content">
                     <h2 class="Card__Content__Tour-Name">Автостопом в Стамбул</h2>
@@ -369,12 +371,12 @@
                     <a target="_blank" href="/#" class="Card__More"> <p class="Card__More__Text">Подробнее</p>
                         <img class="Card__More__Arrow" src="src/images/svg/CardsArrow.svg" alt=""></a>
                 </div>
-                <img class="Card__Background" src="src/images/tourHistory/Beach.png" alt="">
                 <div class="Card__Social-Media">
-                    <a target="_blank" href="https://www.instagram.com/">instagram</a>
-                    <a target="_blank" href="https://www.facebook.com/">facebook</a>
-                    <a target="_blank" href="https://vk.com">ВКонтакте</a>
+                    <a class="Card__Social-Media__Link" target="_blank" href="https://www.instagram.com/">instagram</a>
+                    <a class="Card__Social-Media__Link" target="_blank" href="https://www.facebook.com/">facebook</a>
+                    <a class="Card__Social-Media__Link" target="_blank" href="https://vk.com">ВКонтакте</a>
                 </div>
+                <img class="Card__Background" src="src/images/tourHistory/Beach.png" alt="">
             </div>
         </div>
     </section>
@@ -388,7 +390,7 @@
         </article>
     </section>
 
-    <footer>
+    <footer class="Footer">
         <div class="Footer__Content">
             <p class="Footer__Content__Social-Media-Title">Наши социальные сети</p>
             <div class="Footer__Social-Media">

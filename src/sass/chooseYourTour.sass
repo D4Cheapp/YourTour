@@ -1,66 +1,49 @@
-div.Choose-Your-Tour
-  max-width: 100%
+section.Choose-Your-Tour
   display: flex
   flex-direction: column
+  justify-content: center
   align-items: center
-  margin-inline: auto
 
-  div.Choose-Your-Tour__Links
-    margin-top: 38px
-    margin-left: 12px
-    display: flex
-    justify-content: center
-    gap: 30px
+article.Choose-Your-Tour__Title
+  h1.Title__Head
+    margin-bottom: 32px
 
-    label
-      padding-bottom: 6px
-      position: relative
+div.Choose-Your-Tour__Links
+  display: inline-flex
+  gap: 30px
 
-      font-weight: 700
-      font-size: 23px
-      text-decoration: none
-      color: $black
+label.Choose-Your-Tour__Links__Label
+  font-size: 23px
+  font-weight: 700
+  color: $black
 
-      border: none
-      background: transparent
-      cursor: pointer
+  padding-block: 4px
+  border-bottom: 3px $mercury solid
+  transition: .2s
 
-      transition: all .2s
-      border-bottom: rgba(0,0,0,0) 2px solid
+input.Choose-Your-Tour__Links__Input
+  display: none
 
-    input
-      display: none
+  &:hover+label.Choose-Your-Tour__Links__Label
+    border-bottom: 3px $black solid
 
-      &:hover+label
-        border-bottom: $black 2px solid
+  &:checked+label.Choose-Your-Tour__Links__Label
+    color: $orange200
+    border-bottom: 3px $orange200 solid
 
-      &:checked+label
-        color: $orange
-        border-bottom: $orange 2px solid
 
-  div.Choose-Your-Tour__Cards-Block
-    max-width: 1500px
-    margin-top: 98px
-    display: inline-flex
-    justify-content: center
-    gap: 30px
-    flex-wrap: wrap
-    color: white
+div.Choose-Your-Tour__Cards-Block
+  margin-top: 100px
+  width: 80%
+  justify-content: center
+  display: flex
+  flex-wrap: wrap
+  gap: 30px
 
-    div.Card
-      +Card(370px,531px)
+div.Card
+  +card(370px,531px,50px)
+  
+  h2.Card__Content__Tour-Name
+    line-height: 122%
+    width: 200px
 
-      img.Choose-Your-Tour__Card__Background
-        transition: .3s
-        margin: 0
-        border-radius: 50px
-        height: 531px
-
-      &:hover
-        cursor: pointer
-        a
-          background-color: #286562
-          &:active
-            background-color: $orange
-        img.Choose-Your-Tour__Card__Background
-          scale: 1.2

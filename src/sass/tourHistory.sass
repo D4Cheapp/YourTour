@@ -1,60 +1,42 @@
-.History-Cards
-  display: flex
+div.History-Cards
+  width: 100%
+  display: inline-flex
   flex-direction: column
+  align-items: center
   row-gap: 50px
 
-  .Card
-    +Card(1170px,567px)
-    margin-inline: auto
+div.History-Cards__Card
+  +card(1170px,567px,60px)
 
-    .Card__Content
-      padding: 60px
+div.Card__Content
+  h2.Card__Content__Tour-Name
+    width: 100%
 
-      h3
-        padding-top: 20px
-        line-height: 28px
-        font-size: 20px
-        width: 554px
+  h3.Card__Content__Description
+    margin-top: 37px
+    width: 554px
+    font-weight: 400
+    font-size: 20px
+    line-height: 28.4px
 
-      a.Card__More
-        margin-left: 10px
-        margin-bottom: 25px
-        padding-block: 7px
+div.Card__Social-Media
+  position: absolute
+  right: 60px
+  bottom: 60px
 
-    img.History-Background
-      width: 1170px
-      height: 567px
-      transition: .3s
+  display: inline-flex
+  gap: 35px
+  z-index: 1
 
-
-    ul
-      margin-left: -8px
-      margin-top: 27px
-
-    .Card__Social-Media
-      position: absolute
-      display: inline-flex
-      z-index: 5
-      gap: 35px
-      bottom: 55px
-      right: 60px
-      a
-        font-size: 20px
-        height: 28px
-        +linkAnim
-        color: white
-        &:hover
-          border-bottom: 1px white solid
-        &:active
-          border-bottom: 1px $green solid
+  a.Card__Social-Media__Link
+    +linkHover
+    text-decoration: none
+    color: $white
+    font-size: 20px
 
     &:hover
-      cursor: pointer
+      border-bottom: 1px $white solid
 
-      a.Card__More
-        background-color: #286562
-        &:active
-          background: $orange
-
-      img.History-Background
-        scale: 1.05
+    &:active
+      color: $orange200
+      border-bottom: 1px $orange200 solid
