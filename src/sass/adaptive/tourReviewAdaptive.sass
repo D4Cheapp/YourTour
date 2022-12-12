@@ -1,85 +1,50 @@
 @media (max-width: 1900px)
-  .Tour-Reviews
-    .Tour-Reviews__Title
-      h1
-        margin-top: 145px
-        @media (max-width: 1100px)
-          margin-top: 138px
+  div.Reviews_Cards__Card
+    width: 40%
 
+@media (max-width: 1300px)
+  div.Tour-Reviews__Reviews-Cards
+    gap: 18px
 
-    .Tour-Reviews__Reviews-Cards
-      gap: 18px
+  div.Reviews_Cards__Card
+    width: 370px
+    height: 761px
 
-      .Reviews_Cards__Card
-        height: auto
-        width: 32vw
-        @media (max-width: 1250px)
-          width: 370px
-          height: 769px
+@media (max-width: 1000px)
+  div.Reviews_Cards__Card
+    width: 278px
+    height: auto
+    padding: 20px
+    border-radius: 20px
 
-        p
-          margin-top: 0
-          width: auto
-          @media (max-width: 1250px)
-            width: 370px
+    p.Reviews_Cards__Text
+      width: 99%
+      font-size: 16px
+      line-height: 22.9px
 
-        .Reviews_Cards__Card__User
-          margin-bottom: 7px
-          h2
-            width: 295px
-          p
-            width: 295px
+  div.Reviews_Cards__Card__User
+    margin-top: 40px
 
-@media (max-width: 900px)
-  .Tour-Reviews
+    img.Card__User__Picture
+      width: 75px
+      height: 75px
 
-    .Tour-Reviews__Title
-      h1.Title
-        margin-top: 70px
+  div.Card__User__Information
+    margin-top: 18px
+    margin-bottom: 0
+    row-gap: 10px
 
-      p.Title-Description
-        margin-bottom: 45px
+    h2.User__Information__Name
+      font-size: 23px
+      font-weight: 700
+      letter-spacing: 0.04em
 
-    .Tour-Reviews__Reviews-Cards
-      flex-wrap: wrap
-      align-items: center
-      padding-block: 10px
+    p.User__Information__Tour-Name
+      font-size: 16px
 
+@media (max-width: 700px)
+  div.Tour-Reviews__Reviews-Cards
+    gap: 21px
+    flex-direction: column
+    align-items: center
 
-      .First-User
-        height: 562px
-        @media (max-width: 650px)
-          height: 378px
-
-      .Second-User
-        height: 562px
-
-      .Reviews_Cards__Card
-        border-radius: 20px
-        padding: 20px
-        padding-block: 15px
-        width: 280px
-
-        p
-          font-size: 16px
-          width: 98%
-          line-height: 22.72px
-
-        .Reviews_Cards__Card__User
-          width: 278px
-          align-items: flex-end
-          bottom: 22px
-
-          div
-            display: flex
-            flex-direction: column
-            row-gap: 8px
-            width: 100px
-
-            h2
-              font-size: 23px
-              font-weight: 700
-              margin-bottom: 5px
-
-            p
-              font-size: 16px

@@ -1,160 +1,165 @@
-//Файл с переменными и миксинами sass
-
 $black: #1B1F2B
-$orange: #EFA501
-$green: #286562
-$grey: #A6A6A6
-$beige: #F4F0E9
+$white: #FFFF
 
-@mixin linkAnim()
-  color: #1B1F2B
-  transition: .2s
+$orange200: #EFA501
+$orange100: #F8E6BE
+
+$green400: #286562
+$green300: #3B7E7B
+$green200: #627F7E
+$green100: #E0F0E5
+
+$grey300: #A6A6A6
+$grey200: #D9DFDB
+$grey100: #F1F3F2
+
+$beige200: #F4F0E9
+$beige100: #F9F7F4
+
+$mercury: #e5e5e5
+
+body
+  font-family: "Roboto", serif
+  overflow-x: hidden
+  background: $mercury
+
+article.Title
+  display: flex
+  flex-direction: column
+  align-items: center
+
+h1.Title__Head
+  text-align: center
+  margin-top: 135px
+  margin-bottom: 30px
+  line-height: 73px
+  font-size: 59px
+  font-weight: 700
+
+p.Title-Description
+  width: 400px
+  margin-top: 0
+  color: $grey300
+  margin-bottom: 100px
+  text-align: center
+  line-height: 28px
+  font-size: 20px
+  font-weight: 400
+
+@media (max-width: 880px)
+  h1.Title__Head
+    margin-top: 75px
+    margin-bottom: 20px
+    letter-spacing: 0.02em
+    font-size: 34px
+    line-height: 38px
+
+  p.Title-Description
+    width: 318px
+    font-size: 16px
+    line-height: 23px
+    margin-bottom: 50px
+
+button, label, input, select
+  cursor: pointer
+
+@mixin linkHover()
+  text-decoration: none
+  color: $black
+  padding-block: 2px
   border-bottom: 1px transparent solid
+  transition: .2s
+
   &:hover
     border-bottom: 1px $black solid
 
   &:active
-    color: $green
-    border-bottom: 1px $green solid
+    color: $green300
+    border-bottom: 1px $green300 solid
 
-@mixin Card($width,$height)
+@mixin card($width,$height,$padding)
   position: relative
-  overflow: hidden
-
   width: $width
   height: $height
+  border-radius: $padding
+  overflow: hidden
 
-  border-radius: 50px
-  @media (max-width: 900px)
-    border-radius: 20px
-
-  color: white
-  transition: background-color .3s
-
-  .Card__Content
-    width: calc(100% - 100px)
-    height: calc(100% - 100px)
-    padding: 50px
-
-    @media (max-width: 900px)
-      padding: 25px
-      width: calc(100% - 50px)
-      height: calc(100% - 50px)
-
+  div.Shadow-Gradient
     position: absolute
-    z-index: 3
+    z-index: 1
+    width: 100%
+    height: 100%
 
-    h2
-      font-size: 35px
-      @media (max-width: 900px)
-        font-size: 23px
-      font-weight: 500
+  div.Card__Content
+    position: absolute
+    z-index: 2
 
+    width: calc(100% - $padding * 2)
+    height: calc(100% - $padding * 2)
+
+    padding: $padding
+    color: $white
+
+    h2.Card__Content__Tour-Name
       margin: 0
-      width: 100%
+      font-size: 35px
+      font-weight: 500
+      @media (max-width: 1000px)
+        font-size: 23px
+        font-weight: 700
 
-    h3
-      margin-top: 17px
+    h3.Card__Content__Tour-Price, h3.Card__Content__Description
       font-size: 17px
       font-weight: 400
-      letter-spacing: -0.01em
-
-    img
-      z-index: -1
-
-    .Card__More
-      position: absolute
-      display: inline-flex
-      bottom: 43px
-      left: 35px
-      @media (max-width: 900px)
-        left: 10px
-        bottom: 18px
-
-      gap: 20px
-      border-radius: 50px
-
-      padding-inline: 15px
-      padding-block: 7px
-
-      font-size: 23px
-      font-weight: 700
-      @media (max-width: 900px)
-        font-size: 17px
+      margin-top: 20px
+      @media (max-width: 1000px)
+        font-size: 16px
         font-weight: 400
 
-      transition: .3s
+  a.Card__More
+    position: absolute
+    display: inline-flex
+    gap: 16px
+    left: calc($padding - 20px)
+    bottom: calc($padding - 7px)
+    @media (max-width: 1000px)
+      left: calc($padding - 10px)
+      bottom: calc($padding - 5px)
 
-      img
-        z-index: 2
+    padding-block: 7px
+    padding-inline: 20px
+    @media (max-width: 1000px)
+      padding-block: 5px
+      padding-inline: 10px
 
-      p
-        margin: 0
+    font-size: 23px
+    font-weight: 700
+    @media (max-width: 1000px)
+      font-size: 16px
+    text-decoration: none
+    color: $white
+    transition: .3s
 
-      &:hover
-        background: $green
+    p.Card__More__Text
+      margin: 0
+
+  img.Card__Background
+    width: 100%
+    height: 100%
+    z-index: -10
+    object-fit: cover
+    transition: .3s
+
+  &:hover
+    img.Card__Background
+      scale: 1.2
+
+    a.Card__More
+      border-radius: 50px
+      background: $green400
 
       &:active
-        background: $orange
+        background: $orange200
+      
 
-.Shadow-Gradient
-  position: absolute
-  z-index: 2
-  top: 0
-  width: 100%
-  height: 100%
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%)
 
-body
-  font-family: 'Roboto', sans-serif
-  font-weight: 400
-  margin: 0
-  background-color: #E5E5E5
-  overflow-x: hidden
-
-  button
-    font-family: 'Roboto', sans-serif
-    cursor: pointer
-
-  img
-    -webkit-user-drag: none
-
-  a
-    cursor: pointer
-    text-decoration: none
-
-  h1.Title
-    margin-top: 135px
-    font-weight: 700
-    font-size: 59px
-    text-align: center
-    margin-bottom: 0
-
-  p.Title-Description
-    text-align: center
-    width: 400px
-    font-weight: 500
-    color: $grey
-    font-size: 20px
-    line-height: 28px
-
-    margin: 30px auto 102px
-
-@media (max-width: 1024px)
-  body
-    h1.Title
-      margin-top: 137px
-
-@media (max-width: 900px)
-  body
-    h1.Title
-      letter-spacing: 0.02em
-      margin-top: 75px
-      font-size: 34px
-
-    p.Title-Description
-      width: 360px
-      margin-top: 20px
-      margin-bottom: 40px
-      line-height: 23px
-      font-size: 16px

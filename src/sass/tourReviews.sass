@@ -1,54 +1,53 @@
-.Tour-Reviews__Reviews-Cards
+div.Tour-Reviews__Reviews-Cards
+  width: 100%
   display: inline-flex
   justify-content: center
-  width: 100%
   gap: 30px
 
-  .Reviews_Cards__Card
-    position: relative
+div.Reviews_Cards__Card
+  width: 490px
+  height: 593px
+  padding: 40px
 
-    display: flex
-    flex-direction: column
-    justify-content: space-between
-    row-gap: 40px
+  background: $beige200
+  border-radius: 50px
 
-    padding: 40px
-    width: 490px
-    height: 593px
-    border-radius: 50px
-    background: $beige
+  display: flex
+  flex-direction: column
+  justify-content: space-between
 
-    p
-      margin: 0
-      width: 490px
-      font-size: 23px
-      font-weight: 700
-      text-wrap: normal
+  p.Reviews_Cards__Text
+    margin: 0
+    color: $black
+    font-size: 23px
+    font-weight: 700
+    line-height: 28px
 
-    .Reviews_Cards__Card__User
-      display: inline-flex
-      justify-content: space-between
-      width: 100%
-      bottom: 40px
+div.Reviews_Cards__Card__User
+  width: 100%
+  display: inline-flex
+  justify-content: space-between
 
-      div
-        width: 415px
+  img.Card__User__Picture
+    width: 75px
+    height: 75px
+    border-radius: 50%
 
-      img
-        width: 75px
-        height: 75px
-        border-radius: 50%
+div.Card__User__Information
+  display: flex
+  flex-direction: column
+  justify-content: center
+  row-gap: 8px
+  margin-bottom: 10px
 
-      h2
-        color: $black
-        font-size: 35px
-        font-weight: 500
-        margin: 0
+  h2.User__Information__Name
+    color: $black
+    margin: 0
+    font-size: 35px
+    font-weight: 500
 
-      p
-        margin-top: 10px
-        margin-bottom: 0
-        color: $grey
-        font-size: 17px
-        letter-spacing: -0.01em
-
+  p.User__Information__Tour-Name
+    color: $grey300
+    font-size: 17px
+    font-weight: 400
+    margin: 0

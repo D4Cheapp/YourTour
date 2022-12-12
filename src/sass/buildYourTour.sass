@@ -1,195 +1,212 @@
-form.Build-Your-Tour__From
-  max-width: 1030px
+section.Build-Your-Tour
+  display: flex
+  flex-direction: column
+  align-items: center
+
+form.Build-Your-Tour__Form
+  width: 1030px
   height: 846px
+  background: $white
+  border-radius: 50px
   padding: 70px
 
-  border-radius: 50px
-  background: white
-  margin: 104px auto
+div.Build-Your-Tour__Input-Forms-Block
+  display: flex
+  justify-content: space-between
+  gap: 30px
+  row-gap: 33px
+  flex-wrap: wrap
 
-  .Build-Your-Tour__Input-Forms-Block
-    display: flex
-    flex-wrap: wrap
-    gap: 30px
-    row-gap: 33px
+div.Build-Your-Tour__Form-Input
+  height: 104px
 
-    h3
-      font-size: 20px
-      font-weight: 400
-      height: 28px
-      margin-top: 0
-      margin-bottom: 8px
+  input.Input,select.Form-Input__SelectCity__Select,textarea.Form-Input__Comment__Input
+    border: none
+    border-radius: 10px
+    background: $beige200
 
-    input
-      width: 460px
-      margin: 0
+    font-size: 20px
+    color: $black
+    height: 26px
+    padding: 20px
+    outline: 1px transparent solid
 
-    input,select,textarea
-      border: none
-      border-radius: 10px
-      background: $beige
-      font-size: 20px
+    &:focus
+      outline: 1px $grey300 solid
+
+  h3.Input-Title
+    margin-block: 8px
+    margin-top: 0
+    font-size: 20px
+    font-weight: 400
+
+  input.Input
+    padding: 20px
+    width: 460px
+
+    &::-webkit-input-placeholder
+      color: $grey300
+
+div.Input-SelectCity
+  position: relative
+
+  select.Form-Input__SelectCity__Select
+    appearance: none
+    height: 66px
+    width: 500px
+    color: $black
+
+    &:required:invalid,option[value=""]
+      color: $grey300
+
+    option:not([value=""])
       color: $black
-      height: 66px
-      padding-inline: 20px
-      outline: 1px transparent solid
 
-      &:focus
-        outline: 1px #A6A6A6 solid
+  img.Form-Input__SelectCity__Select-Arrow
+    position: absolute
+    width: 18px
+    height: 18px
 
-    .Build-Your-Tour__Form-Input__SelectCity
-      position: relative
-      cursor: pointer
+    bottom: 27px
+    right: 24px
 
-      img
-        position: absolute
-        width: 18px
-        height: 18px
+div.Input-Comment
+  height: 188px
 
-        bottom: 27px
-        right: 24px
+  textarea.Form-Input__Comment__Input
+    resize: none
+    height: 112px
+    width: 990px
 
-      select
-        width: 500px
-        appearance: none
+div.Build-Your-Tour__Form__Other-Inputs
+  display: flex
+  flex-direction: column
+  row-gap: 33px
 
-        &:required:invalid,option[value=""]
-          color: $grey
+div.Form__Other-Inputs__Age-Check
+  h3.Other-Inputs__Age-Check__Title
+    margin-top: 35px
+    margin-bottom: 9px
+    font-size: 20px
+    font-weight: 400
 
-        option
-          color: $black
-
-        &:after
-          margin-right: 100px
-
-    .Build-Your-Tour__Form-Input__Comment
-      margin-top: 0
-      textarea
-        padding-top: 20px
-        padding-bottom: 20px
-        resize: none
-        height: 112px
-        width: 990px
-
-  .Build-Your-Tour__Form__Other-Inputs
-    display: flex
-    flex-direction: column
-
-  .Form__Other-Inputs__Age-Check
-    h3
-      margin-top: 30px
-      margin-bottom: 10px
-      font-weight: 400
-
-    div.Form__Other-Inputs__Age-Input
-      display: flex
-      gap: 30px
-
-      label
-        height: 28px
-        display: inline-flex
-
-        h3
-          margin: 0
-
-        input
-          position: absolute
-          opacity: 0
-
-        input:checked+.Custom-Radio::before
-          opacity: 1
-
-        .Custom-Radio
-          position: relative
-          display: inline-block
-          width: 22px
-          height: 22px
-          border: #1B1F2B 2px solid
-          border-radius: 50%
-          margin-right: 11px
-
-          &::before
-            position: absolute
-            content: ''
-            width: 12px
-            height: 12px
-            background: $black
-            border-radius: 50%
-            top: 50%
-            left: 50%
-            transform: translate(-50%,-50%)
-            opacity: 0
-            transition: .2s
-
-  .Form__Other-Inputs__Licence
-    margin-top: 20px
-    font-size: 17px
-    letter-spacing: -0.01em
-    color: $grey
+  label.Other-Inputs__Age-Check__Label
     display: inline-flex
+    justify-content: center
     align-items: center
-    gap: 19px
-    a
-      padding-bottom: 2px
-      +linkAnim
 
-    input
-      position: absolute
-      opacity: 0
+  div.Form__Other-Inputs__Age-Input
+    display: inline-flex
+    gap: 31px
 
-    input:checked+.Custom-CheckBox::before
+  h3.Age-Check__Label__Button-Text
+    margin: 0
+    font-weight: 400
+    font-size: 20px
+
+  input.Age-Check__Label__Radio-Button
+    position: absolute
+    opacity: 0
+
+    &:checked+.Custom-Radio::before
       opacity: 1
 
-    .Custom-CheckBox
-      position: relative
-      width: 22px
-      height: 22px
-      border: 2px $black solid
-      border-radius: 5px
+  div.Custom-Radio
+    position: relative
+    display: inline-block
+    width: 22px
+    height: 22px
+    border: $black 2px solid
+    border-radius: 50%
+    margin-right: 11px
 
-      &::before
-        position: absolute
-        content: ''
-        rotate: 45deg
-        width: 7px
-        height: 12px
-        border-bottom: 2px $black solid
-        border-right: 2px $black solid
-        top: 2px
-        left: 7px
-        opacity: 0
-        transition: .2s
-
-  .Form__Other-Inputs__Submit-Buttons
-    margin-top: 20px
-    display: inline-flex
-    gap: 30px
-
-    button
-      width: 235px
-      height: 58px
-      border: none
-      border-radius: 10px
-      font-size: 20px
+    &::before
+      position: absolute
+      content: ''
+      width: 12px
+      height: 12px
+      background: $black
+      border-radius: 50%
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+      opacity: 0
       transition: .2s
 
-    button
-      background: $green
-      color: white
+label.Form__Other-Inputs__Licence
+  display: inline-flex
+  align-items: center
+  gap: 19px
 
-      &:hover
-        background: #3B7E7B
+  input.Other-Inputs__Licence__Input
+    position: absolute
+    opacity: 0
 
-      &:active
-        background: #627F7E
+    &:checked+.Custom-CheckBox::before
+      opacity: 1
 
-    button[type="reset"]
-      background: #E0F0E5
-      color: $green
+  p.Other-Inputs__Licence__Contract
+    margin: 0
+    font-size: 17px
+    font-weight: 400
+    color: $grey300
+    letter-spacing: -0.01em
 
-      &:hover
-        background: #F1F3F2
+    a.Licence__Contract__Link
+      +linkHover
 
-      &:active
-        background: #D9DFDB
+  div.Custom-CheckBox
+    position: relative
+    width: 22px
+    height: 22px
+    border: 2px $black solid
+    border-radius: 5px
 
+    &::before
+      position: absolute
+      content: ''
+      rotate: 45deg
+      width: 7px
+      height: 12px
+      border-bottom: 2px $black solid
+      border-right: 2px $black solid
+      top: 2px
+      left: 7px
+      opacity: 0
+      transition: .2s
+
+div.Form__Other-Inputs__Buttons
+  display: inline-flex
+  gap: 30px
+
+  button.Other-Inputs__Buttons__Submit, button.Other-Inputs__Buttons__Reset
+    width: 235px
+    height: 58px
+
+    border-radius: 10px
+    outline: none
+    border: none
+
+    font-weight: 400
+    font-size: 20px
+    transition: .2s
+
+  button.Other-Inputs__Buttons__Submit
+    color: $white
+    background: $green400
+
+    &:hover
+      background: $green300
+
+    &:active
+      background: $green200
+
+  button.Other-Inputs__Buttons__Reset
+    color: $green400
+    background: $green100
+
+    &:hover
+      background: $grey100
+
+    &:active
+      background: $grey200

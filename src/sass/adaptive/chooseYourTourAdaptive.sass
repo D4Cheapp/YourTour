@@ -1,70 +1,34 @@
-@media (max-width: 1900px)
-  div.Choose-Your-Tour
-    max-width: 90%
-
-    div.Choose-Your-Tour__Cards-Block
-      gap: 18px
-
-      div.Card
-        width: 450px
-
-        h2
-          width: 350px
-
-        h3
-          top: 110px
-
-        img.Choose-Your-Tour__Card__Background
-          position: absolute
-          left: 40px
-          bottom: 10%
-          scale: 1.5
-
-        &:hover
-          img.Choose-Your-Tour__Card__Background
-            scale: 1.7
-
-@media (max-width: 1020px)
-  div.Choose-Your-Tour
+@media (max-width: 1800px)
+  div.Choose-Your-Tour__Cards-Block
     width: 100%
+    gap: 18px
 
-    h1.Title
-      margin-top: 75px
+  div.Card
+    +card(450px,531px,50px)
 
-    div.Choose-Your-Tour__Links
-      flex-wrap: wrap
-      margin-top: 30px
-      margin-inline: 0
-      gap: 10px
+@media (max-width: 1000px)
+  div.Choose-Your-Tour__Links
+    width: 80%
+    padding-inline: 10%
+    flex-wrap: wrap
+    justify-content: center
+    gap: 10px
+    row-gap: 8px
 
-      line-height: 16px
-      width: 80%
-      padding-inline: 10%
+  label.Choose-Your-Tour__Links__Label
+    font-size: 16px
+    font-weight: 700
+    padding-block: 1px
 
-      label
-        font-size: 16px
+  input.Choose-Your-Tour__Links__Input
+    &:hover+label.Choose-Your-Tour__Links__Label
+      border-bottom: 2px $black solid
 
-    div.Choose-Your-Tour__Cards-Block
-      flex-wrap: wrap
-      margin-top: 45px
+    &:checked+label.Choose-Your-Tour__Links__Label
+      border-bottom: 2px $orange200 solid
 
-      div.Card
-        +Card(318px,318px)
+  div.Choose-Your-Tour__Cards-Block
+    margin-top: 50px
 
-        img.Choose-Your-Tour__Card__Background
-          scale: 1
-          transform: translate(-16%,10%)
-
-        &:hover
-          img.Choose-Your-Tour__Card__Background
-            transform: translate(-15%,5%)
-            scale: 1.2
-
-      div.Lake:hover,div.Beach:hover,div.City:hover
-          img.Choose-Your-Tour__Card__Background
-            transform: translate(-15%,15%)
-            scale: 1.2
-
-      div.Lake,div.Beach,div.City
-        img.Choose-Your-Tour__Card__Background
-          transform: translate(-18%,15%)
+  div.Card
+    +card(318px,318px,25px)

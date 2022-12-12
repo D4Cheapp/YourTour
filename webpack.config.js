@@ -1,6 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const path = require('path');
+const {loader} = require("image-minimizer-webpack-plugin");
 
 module.exports={
   //Режим проекта и точка входа
@@ -24,8 +25,12 @@ module.exports={
   module: {
     rules: [
       {
+        test: /\.css$/,
+        use: ["style-loader",'css-loader']
+      },
+      {
         //Компиляция из sass в css
-        test: /\.(sass)$/,
+        test: /\.sass$/,
         use: ['style-loader', 'css-loader', 'postcss-loader', {
           loader: 'sass-loader',
           options: {
@@ -43,7 +48,7 @@ module.exports={
         {// Оптимизация всех изображений
         loader: "webp-loader",
         options: {
-          quality: 75
+          quality: 50
         }
       }
       ]}],
