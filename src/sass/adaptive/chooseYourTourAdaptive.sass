@@ -5,3 +5,30 @@
 
   div.Card
     +card(450px,531px,50px)
+
+@media (max-width: 1000px)
+  div.Choose-Your-Tour__Links
+    width: 80%
+    padding-inline: 10%
+    flex-wrap: wrap
+    justify-content: center
+    gap: 10px
+    row-gap: 8px
+
+  label.Choose-Your-Tour__Links__Label
+    font-size: 16px
+    font-weight: 700
+    padding-block: 1px
+
+  input.Choose-Your-Tour__Links__Input
+    &:hover+label.Choose-Your-Tour__Links__Label
+      border-bottom: 2px $black solid
+
+    &:checked+label.Choose-Your-Tour__Links__Label
+      border-bottom: 2px $orange200 solid
+
+  div.Choose-Your-Tour__Cards-Block
+    margin-top: 50px
+
+  div.Card
+    +card(318px,318px,25px)

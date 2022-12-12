@@ -39,11 +39,26 @@ h1.Title__Head
 p.Title-Description
   width: 400px
   margin-top: 0
+  color: $grey300
   margin-bottom: 100px
   text-align: center
   line-height: 28px
   font-size: 20px
   font-weight: 400
+
+@media (max-width: 880px)
+  h1.Title__Head
+    margin-top: 75px
+    margin-bottom: 20px
+    letter-spacing: 0.02em
+    font-size: 34px
+    line-height: 38px
+
+  p.Title-Description
+    width: 318px
+    font-size: 16px
+    line-height: 23px
+    margin-bottom: 50px
 
 button, label, input, select
   cursor: pointer
@@ -66,7 +81,7 @@ button, label, input, select
   position: relative
   width: $width
   height: $height
-  border-radius: 50px
+  border-radius: $padding
   overflow: hidden
 
   div.Shadow-Gradient
@@ -89,11 +104,17 @@ button, label, input, select
       margin: 0
       font-size: 35px
       font-weight: 500
+      @media (max-width: 1000px)
+        font-size: 23px
+        font-weight: 700
 
-    h3.Card__Content__Tour-Price
+    h3.Card__Content__Tour-Price, h3.Card__Content__Description
       font-size: 17px
-      font-weight: 300
+      font-weight: 400
       margin-top: 20px
+      @media (max-width: 1000px)
+        font-size: 16px
+        font-weight: 400
 
   a.Card__More
     position: absolute
@@ -101,19 +122,26 @@ button, label, input, select
     gap: 16px
     left: calc($padding - 20px)
     bottom: calc($padding - 7px)
+    @media (max-width: 1000px)
+      left: calc($padding - 10px)
+      bottom: calc($padding - 5px)
 
     padding-block: 7px
     padding-inline: 20px
+    @media (max-width: 1000px)
+      padding-block: 5px
+      padding-inline: 10px
 
     font-size: 23px
     font-weight: 700
+    @media (max-width: 1000px)
+      font-size: 16px
     text-decoration: none
     color: $white
     transition: .3s
 
     p.Card__More__Text
       margin: 0
-
 
   img.Card__Background
     width: 100%

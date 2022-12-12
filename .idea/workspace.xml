@@ -5,21 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e63f31e0-f7be-4b96-ba1c-95a138601f76" name="Changes" comment="finished">
-      <change afterPath="$PROJECT_DIR$/src/sass/adaptive/topBarAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/__variablesAndGlobal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/__variablesAndGlobal.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/buildYourTourAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/chooseYourTourAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/footerAndCtaAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/footerAndCtaAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/mainContentAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/mainContentAdaptive.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/adaptive/topBarAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/topBarAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourHistoryAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourHistoryAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourPhotoAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/adaptive/tourReviewAdaptive.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/buildYourTour.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/buildYourTour.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/chooseYourTour.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/chooseYourTour.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/tourHistory.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourHistory.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/tourPhoto.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tourPhoto.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/footerAndCta.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/footerAndCta.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,8 @@
       <workItem from="1670603175687" duration="311000" />
       <workItem from="1670668097870" duration="8959000" />
       <workItem from="1670775621389" duration="6309000" />
-      <workItem from="1670788838681" duration="5495000" />
+      <workItem from="1670788838681" duration="9642000" />
+      <workItem from="1670859407580" duration="9315000" />
     </task>
     <task id="LOCAL-00001" summary="reviews adaptive">
       <created>1669728717152</created>

@@ -1,32 +1,135 @@
 @media (max-width: 1900px)
   form.Build-Your-Tour__Form
     width: 80%
-    @media (max-width: 1100px)
-      width: 798px
     height: 846px
     padding: 60px
 
   div.Build-Your-Tour__Input-Forms-Block
-    @media (max-width: 1100px)
-      gap: 20px
     row-gap: 33px
 
   div.Build-Your-Tour__Form-Input
     width: 47%
-    @media (max-width: 1100px)
-      width: 389px
     input.Input
       width: calc(100% - 40px)
 
   div.Input-SelectCity
     select.Form-Input__SelectCity__Select
       width: 100%
-      @media (max-width: 1100px)
-        width: 389px
 
   div.Input-Comment
     width: 100%
     textarea.Form-Input__Comment__Input
       width: calc(100% - 40px)
-      @media (max-width: 1100px)
-        width: 758px
+
+@media (max-width: 1100px)
+  form.Build-Your-Tour__Form
+    width: 798px
+
+  div.Build-Your-Tour__Input-Forms-Block
+    gap: 20px
+
+  div.Build-Your-Tour__Form-Input
+    width: 389px
+
+  div.Input-SelectCity
+    select.Form-Input__SelectCity__Select
+      width: 389px
+
+  div.Input-Comment
+    textarea.Form-Input__Comment__Input
+      width: 758px
+
+@media (max-width: 1000px)
+  article.Build-Your-Tour
+    p.Title-Description
+      margin-bottom: 40px
+
+  form.Build-Your-Tour__Form
+    width: 70%
+    height: auto
+    @media (max-width: 400px)
+      width: 278px
+      height: 1070px
+
+    padding: 20px
+    border-radius: 30px
+
+  div.Build-Your-Tour__Input-Forms-Block
+    gap: 30px
+
+  div.Build-Your-Tour__Form-Input
+    width: 100%
+    height: 74px
+
+    h3.Input-Title
+      font-size: 16px
+
+    input.Input
+      width: calc(100% - 20px)
+      border-radius: 10px
+      padding: 10px
+      height: 23px
+      font-size: 16px
+
+  div.Input-SelectCity
+    width: 100%
+
+    select.Form-Input__SelectCity__Select
+      padding: 10px
+      height: 46px
+      width: 100%
+      font-size: 16px
+
+    img.Form-Input__SelectCity__Select-Arrow
+      right: 14px
+      bottom: 14px
+
+  div.Input-Comment
+    width: 100%
+    height: 163px
+
+    textarea.Form-Input__Comment__Input
+      width: calc(100% - 40px)
+      height: 112px
+
+  div.Build-Your-Tour__Form__Other-Inputs
+    row-gap: 30px
+
+  div.Form__Other-Inputs__Age-Check
+    div.Form__Other-Inputs__Age-Input
+      gap: 28px
+
+    h3.Other-Inputs__Age-Check__Title
+      font-size: 16px
+
+    div.Custom-Radio
+      height: 17px
+      width: 17px
+
+    h3.Age-Check__Label__Button-Text
+      font-size: 16px
+
+  label.Form__Other-Inputs__Licence
+    align-items: flex-start
+    gap: 10px
+
+    div.Custom-CheckBox
+      height: 17px
+      width: 34px
+
+      &::before
+        width: 5px
+        height: 10px
+        left: 5px
+        top: 2px
+
+    p.Other-Inputs__Licence__Contract
+      line-height: 22.7px
+
+  div.Form__Other-Inputs__Buttons
+    gap: 10px
+
+    button.Other-Inputs__Buttons__Submit, button.Other-Inputs__Buttons__Reset
+      width: 134px
+      height: 47px
+      font-size: 16px

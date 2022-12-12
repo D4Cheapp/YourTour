@@ -1,3 +1,74 @@
 @media (max-width: 1800px)
   div.Footer__Content
     width: 90%
+
+@media (max-width: 800px)
+  section.CTA
+    margin-top: 75px
+    flex-direction: column
+    text-align: center
+
+    img.CTA__Image
+      width: 230px
+      height: 233px
+      border-radius: 20px
+
+  footer.Footer
+    margin-top: 75px
+
+  div.Footer__Content
+    flex-direction: column
+    justify-content: center
+
+    p.Footer__Content__Social-Media-Title
+      margin-block: 7px
+
+@media (max-width: 500px)
+  section.CTA > img.CTA__Image
+      width: 130px
+      height: 133px
+
+  article.CTA__Text
+    align-items: center
+    gap: 20px
+
+    h2.CTA__Text__Title
+      width: 70%
+      font-size: 23px
+      line-height: 27.6px
+      letter-spacing: 0.04em
+
+    h3.CTA__Text__Email-Text
+      font-size: 16px
+      font-weight: 400
+      line-height: 23px
+
+  div.Footer__Content
+    p.Footer__Content__Social-Media-Title
+      font-size: 16px
+      margin-top: 16px
+      margin-bottom: 7px
+
+    div.Footer__Social-Media
+      gap: 15px
+
+      div.Footer__Social-Media__Block
+        width: 95px
+        gap: 4px
+        justify-content: right
+
+        a.Social-Media__Block__Link
+          font-size: 16px
+
+        img.Social-Media__Block__SVG
+          scale: .8
+
+      div.Footer__Social-Media__Block+div.Facebook
+        gap: 9px
+
+      div.Footer__Social-Media__Block+div.VK
+        gap: 0
+
+        a.Social-Media__Block__Link
+          padding-top: 1px
+          padding-left: 2px

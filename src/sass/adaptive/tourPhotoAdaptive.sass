@@ -17,3 +17,27 @@
       width: 22%
       @media (max-width: 1400px)
         width: 231px
+
+@media (max-width: 1000px)
+  img.Hills, img.Map, img.BusyStreet
+    display: none
+
+  div.Tour-Photos__Collection
+    gap: 18px
+
+  div.Collection__First-Line,div.Collection__Third-Line
+    img.Collection__First-And-Third-Line__Image
+      border-radius: 20px
+      width: 45%
+      @media (max-width: 500px)
+        width: 150px
+        height: 110px
+
+  div.Collection__Second-Line
+    gap: 10px
+    img.Collection__Second-Line__Image
+      border-radius: 20px
+      width: 30%
+      @media (max-width: 500px)
+        width: 100px
+        height: 110px
